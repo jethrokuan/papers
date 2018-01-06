@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2016/NixOS.org)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: bib2html416731.aux
+The style file: plain.bst
+Database file #1: index.bib
+Warning--to sort, need author or key in holden-2017-phasefunctionnn
+Name 2 in "Gao, Jiyang and Zijian, and Guo, and Li, Zhen and Nevatia, Ram" has a comma at the end for entry gao-2017-knowl-concen
+while executing---line 1049 of file plain.bst
+Name 3 in "Gao, Jiyang and Zijian, and Guo, and Li, Zhen and Nevatia, Ram" has a comma at the end for entry gao-2017-knowl-concen
+while executing---line 1049 of file plain.bst
+Name 2 in "Gao, Jiyang and Zijian, and Guo, and Li, Zhen and Nevatia, Ram" has a comma at the end for entry gao-2017-knowl-concen
+while executing---line 1090 of file plain.bst
+Name 3 in "Gao, Jiyang and Zijian, and Guo, and Li, Zhen and Nevatia, Ram" has a comma at the end for entry gao-2017-knowl-concen
+while executing---line 1090 of file plain.bst
+You've used 91 entries,
+            2118 wiz_defined-function locations,
+            776 strings with 19205 characters,
+and the built_in function-call counts, 29002 in all, are:
+= -- 2542
+> -- 2334
+< -- 0
++ -- 927
+- -- 828
+* -- 2090
+:= -- 5478
+add.period$ -- 271
+call.type$ -- 91
+change.case$ -- 686
+chr.to.int$ -- 0
+cite$ -- 92
+duplicate$ -- 907
+empty$ -- 1554
+format.name$ -- 828
+if$ -- 5513
+int.to.chr$ -- 0
+int.to.str$ -- 91
+missing$ -- 90
+newline$ -- 456
+num.names$ -- 180
+pop$ -- 696
+preamble$ -- 1
+purify$ -- 596
+quote$ -- 0
+skip$ -- 652
+stack$ -- 0
+substring$ -- 463
+swap$ -- 91
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 364
+warning$ -- 1
+while$ -- 180
+width$ -- 93
+write$ -- 907
+(There were 4 error messages)

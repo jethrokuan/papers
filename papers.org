@@ -1,0 +1,175 @@
+* TODO Swish: a Self-Gated Activation Function
+[[cite:ramachandran17_swish][Ramachandran et al. 2017: Swish]]
+* TODO Related Pins At Pinterest: The Evolution of a Real-World
+[[cite:liu17_relat_pins_at_pinter][Liu et al. 2017: Related Pins At Pinterest]]
+* TODO Efficient Natural Language Response Suggestion for
+[[cite:henderson17_effic_natur_languag_respon_sugges_smart_reply][Henderson et al. 2017: Efficient Natural Language]]
+* TODO Deep Reinforcement Learning From Human Preferences
+[[cite:christiano-2017-deep-reinf][Christiano et al. 2017: Deep Reinforcement Learning]]
+* TODO Understanding Generalization and Stochastic Gradient Descent
+[[cite:smith-2017-under-gener][Smith & Le 2017: Understanding Generalization Stochastic]]
+* TODO Do Convolutional Neural Networks Learn Class Hierarchy?
+[[cite:alsallakh-2017-do-convol][Alsallakh et al. 2017: Do Convolutional Neural]]
+* TODO Google's Neural Machine Translation System: Bridging the Gap
+[[cite:wu-2016-googl-neural][Wu et al. 2016: Googles Neural Machine]]
+* TODO Unsupervised Machine Translation Using Monolingual
+[[cite:lample-2017-unsup-machin][Lample et al. 2017: Unsupervised Machine Translation]]
+* TODO Attention Is All You Need
+[[cite:vaswani-2017-atten-is][Vaswani et al. 2017: Attention Is All]]
+* TODO One Model To Learn Them All
+[[cite:kaiser-2017-one-model][Kaiser et al. 2017: One Model To]]
+* TODO Scalable Trust-Region Method for Deep Reinforcement Learning
+[[cite:wu-2017-scalab-trust][Wu et al. 2017: Scalable Trust Region]]
+* TODO Replace Or Retrieve Keywords In Documents At Scale
+[[cite:singh-2017-replac-or][Singh 2017: Replace Or Retrieve]]
+* TODO A Conflict-Free Replicated Json Datatype
+[[cite:kleppmann-2016-confl-free][Kleppmann & Beresford 2016: Conflict Free Replicated]]
+* TODO Wasserstein Auto-Encoders                       
+[[cite:tolstikhin-2017-wasser-auto-encod][Tolstikhin et al. 2017: Wasserstein Auto Encoders]]
+* TODO Wider and Deeper, Cheaper and Faster: Tensorized Lstms 
+[[cite:he-2017-wider-deeper][He et al. 2017: Wider Deeper Cheaper Faster]]
+* TODO Neural Speed Reading Via Skim-Rnn               
+[[cite:seo-2017-neural-speed][Seo et al. 2017: Neural Speed Reading]]
+* TODO Robust Speech Recognition Using Generative Adversarial Networks 
+[[cite:sriram-2017-robus-speec][Sriram et al. 2017: Robust Speech Recognition]]
+* TODO A Survey on Dialogue Systems: Recent Advances and New Frontiers 
+[[cite:chen-2017-survey-dialog-system][Chen et al. 2017: Survey Dialogue Systems]]
+* TODO Visually-Aware Fashion Recommendation and Design 
+[[cite:kang-2017-visual-aware][Kang et al. 2017: Visually Aware Fashion]]
+* TODO Can Maxout Units Downsize Restoration Networks? 
+[[cite:choi-2017-can-maxout][Choi & Kim 2017: Can Maxout Units]]
+* TODO Food Recommender Systems: Important Contributions, Challenges and Future Re 
+[[cite:trattner-2017-food-recom-system][Trattner & Elsweiler 2017: Food Recommender Systems]]
+* TODO On the State of the Art of Evaluation in Neural Language Models 
+[[cite:melis-2017-state-art][Melis et al. 2017: State Art Evaluation]]
+* DONE Continuous Integration: The Silver Bullet?      
+  CLOSED: [2017-11-13 Mon 21:59]
+[[cite:rahman-2017-contin-integ][Rahman et al. 2017: Continuous Integration]]
+* TODO Squeezenet: Alexnet-Level Accuracy With 50x Fewer Parameters and $<$0.5MB M 
+[[cite:iandola-2016-squeez][Iandola et al. 2016: Squeezenet]]
+* TODO End-To-End Learning for Music Audio Tagging At Scale 
+[[cite:pons-2017-end-to][Pons et al. 2017: End To End]]
+* TODO An Iterative School Decomposition Algorithm for Solving the Multi-School Bu 
+[[cite:wang-2017-iterat-school][Wang et al. 2017: Iterative School Decomposition]]
+* TODO Augmenting End-To-End Dialog Systems With Commonsense Knowledge 
+[[cite:young-2017-augmen-end][Young et al. 2017: Augmenting End To]]
+* TODO Squeeze-Segnet: A New Fast Deep Convolutional Neural Network for Semantic S 
+[[cite:nanfack-2017-squeez-segnet][Nanfack et al. 2017: Squeeze Segnet]]
+* TODO Sling: A Framework for Frame Semantic Parsing   
+[[cite:ringgaard-2017-sling][Ringgaard et al. 2017: Sling]]
+* TODO Generative Adversarial Networks: An Overview    
+[[cite:creswell-2017-gener-adver-networ][Creswell et al. 2017: Generative Adversarial Networks]]
+* TODO Data Augmentation Generative Adversarial Networks 
+[[cite:antoniou-2017-data-augmen][Antoniou et al. 2017: Data Augmentation Generative]]
+* TODO Advances in Variational Inference               
+[[cite:zhang-2017-advan-variat-infer][Zhang et al. 2017: Advances Variational Inference]]
+* TODO Fixing Weight Decay Regularization in Adam      
+[[cite:loshchilov-2017-fixin-weigh][Loshchilov & Hutter 2017: Fixing Weight Decay]]
+* TODO A New Method for Performance Analysis in Nonlinear Dimensionality Reduction 
+[[cite:liang-2017-new-method][Liang et al. 2017: New Method Performance]]
+* TODO Giraffe: Using Deep Reinforcement Learning To Play Chess 
+[[cite:lai-2015-giraf][Lai 2015: Giraffe]]
+* TODO Efficient Optimization for Rank-Based Loss Functions 
+[[cite:mohapatra-2016-effic-optim][Mohapatra et al. 2016: Efficient Optimization Rank]]
+* TODO Application of Natural Language Processing To Determine User Satisfaction i 
+ [[cite:kowalski-2017-applic-natur][Kowalski et al. 2017: Application Natural Language]]
+** DONE Read Out of the Tar Pit
+   CLOSED: [2018-01-04 Thu 19:34]
+   :LOGBOOK:
+   CLOCK: [2018-01-04 Thu 17:42]--[2018-01-04 Thu 18:52] =>  1:10
+   :END:
+ https://github.com/papers-we-love/papers-we-love/blob/master/design/out-of-the-tar-pit.pdf
+    Captured 2017-11-25 22:57
+* TODO Shift: A Zero Flop, Zero Parameter Alternative To Spatial Convolutions 
+[[cite:wu-2017-shift][Wu et al. 2017: Shift]]
+* TODO Light-Head R-Cnn: In Defense of Two-Stage Object Detector 
+[[cite:li-2017-light-head][Li et al. 2017: Light Head R Cnn]]
+* TODO Non-Local Neural Networks                       
+[[cite:wang-2017-non-local][Wang et al. 2017: Non Local Neural Networks]]
+* TODO Rubystar: A Non-Task-Oriented Mixture Model Dialog System 
+[[cite:liu-2017-rubys][Liu et al. 2017: Rubystar]]
+* TODO Actor-Critic Sequence Training for Image Captioning 
+[[cite:zhang-2017-actor-critic][Zhang et al. 2017: Actor Critic Sequence]]
+* TODO Backprop As Functor: A Compositional Perspective on Supervised Learning 
+[[cite:fong-2017-backp-as-funct][Fong et al. 2017: Backprop As Functor]]
+* TODO Inferring Users' Preferences Through Leveraging Their Social Relationships 
+[[cite:deng-2017-infer-users][Deng et al. 2017: Inferring Users Preferences]]
+* TODO Building Machines That Learn and Think for Themselves: Commentary on Lake E 
+[[cite:botvinick-2017-build-machin][Botvinick et al. 2017: Building Machines That]]
+* TODO Stargan: Unified Generative Adversarial Networks for Multi-Domain Image-To- 
+[[cite:choi-2017-starg][Choi et al. 2017: Stargan]]
+* TODO Agile Software Engineering and Systems Engineering At Ska Scale 
+[[cite:santander-vela-2017-agile-softw][Santander-Vela 2017: Agile Software Engineering]]
+* TODO Fast Top-K Area Topics Extraction With Knowledge Base
+[[cite:zhang-2017-fast-top][Zhang et al. 2017: Fast Top K]]
+* TODO On the Effects of Batch and Weight Normalization in Generative Adversarial 
+[[cite:xiang-2017-effec-batch][Xiang & Li 2017: Effects Batch Weight]]
+* TODO Learning By Asking Questions                    
+[[cite:misra-2017-learn-by][Misra et al. 2017: Learning By Asking Questions]]
+* TODO The Mind As a Computational System              
+[[cite:adami-2017-mind-as][Adami 2017: Mind As Computational System]]
+* DONE Will Humans Even Write Code in 2040 and What Would That Mean for Extreme He 
+  CLOSED: [2018-01-03 Wed 13:45]
+  :LOGBOOK:
+  CLOCK: [2018-01-03 Wed 12:59]--[2018-01-03 Wed 13:45] =>  0:46
+  :END:
+[[cite:billings-2017-will-human][Billings et al. 2017: Will Humans Even]]
+* TODO Explainable Ai: Beware of Inmates Running the Asylum Or: How I Learnt To St 
+[[cite:miller-2017-explain-ai][Miller et al. 2017: Explainable Ai]]
+* TODO Take It in Your Stride: Do We Need Striding in Cnns? 
+[[cite:kong-2017-take-it][Kong & Lucey 2017: Take It Your Stride]]
+* TODO Imagenet Training in Minutes                    
+[[cite:you-2017-imagen-train-minut][You et al. 2017: Imagenet Training Minutes]]
+* TODO Shufflenet: An Extremely Efficient Convolutional Neural Network for Mobile 
+[[cite:zhang-2017-shuff][Zhang et al. 2017: Shufflenet]]
+* TODO A Deep Network Model for Paraphrase Detection in Short Text Messages 
+[[cite:agarwal-2017-deep-networ][Agarwal et al. 2017: Deep Network Model]]
+* TODO Mastering Chess and Shogi By Self-Play With a General Reinforcement Learnin 
+[[cite:silver-2017-master-chess][Silver et al. 2017: Mastering Chess Shogi]]
+* TODO Sgan: An Alternative Training of Generative Adversarial Networks 
+[[cite:chavdarova-2017-sgan][Chavdarova & Fleuret 2017: Sgan]]
+* TODO Automan: a Simple, Python-Based, Automation Framework for Numerical Computi 
+[[cite:ramachandran-2017-autom][Ramachandran 2017: Automan]]
+* TODO Hierarchical Bloom Filter Trees for Approximate Matching 
+[[cite:lillis-2017-hierar-bloom][Lillis et al. 2017: Hierarchical Bloom Filter]]
+* TODO Hash Embeddings for Efficient Word Representations 
+[[cite:svenstrup-2017-hash-embed][Svenstrup et al. 2017: Hash Embeddings Efficient]]
+* TODO Rasa: Open Source Language Understanding and Dialogue Management 
+[[cite:bocklisch-2017-rasa][Bocklisch et al. 2017: Rasa]]
+* TODO Fourteen Years of Software Engineering At Eth Zurich 
+[[cite:meyer-2017-fourt-years][Meyer 2017: Fourteen Years Software]]
+* TODO Leveraging Long and Short-Term Information in Content-Aware Movie Recommend
+[[Cite:zhao-2017-lever-long]]
+* TODO Document Spanners for Extracting Incomplete Information: Expressiveness and
+[[cite:maturana-2017-docum-spann]]
+* DONE Safe Mutations for Deep and Recurrent Neural Networks Through Output Gradie
+  CLOSED: [2018-01-01 Mon 18:38]
+[[Cite:lehman-2017-safe-mutat]]
+* TODO Improved Distributed Algorithms for Exact Shortest Paths
+[[cite:ghaffari-2017-improv-distr]]
+* TODO Learning To Learn By Gradient Descent By Gradient Descent
+[[cite:andrychowicz-2016-learn-to]]
+* DONE Cnn Is All You Need                            
+  CLOSED: [2018-01-02 Tue 20:30]
+  :LOGBOOK:
+  CLOCK: [2018-01-02 Tue 20:21]--[2018-01-02 Tue 20:30] =>  0:09
+  :END:
+[[Cite:chen-2017-cnn-is]]
+* TODO On the Challenges of Detecting Rude Conversational Behaviour
+[[Cite:grewal-2017-chall-detec]]
+* TODO Robust Loss Functions Under Label Noise for Deep Neural Networks
+[[Cite:ghosh-2017-robus-loss]]
+* TODO One-Shot and Few-Shot Learning of Word Embeddings
+  [[Cite:lampinen-2017-one-shot]]
+* TODO Beyond Word Embeddings: Learning Entity and Concept Representations From La
+  [[cite:shalaby-2018-beyon-word-embed]]
+* TODO Theory of Deep Learning Iii: Explaining the Non-Overfitting Puzzle
+  [[cite:poggio-2017-theor-deep]]
+* TODO What Do We Need To Build Explainable Ai Systems for the Medical Domain?
+[[cite:holzinger-2017-what-do]]
+* TODO Vizdoom: Drqn With Prioritized Experience Replay, Double-Q Learning, & Snap
+[[cite:schulze-2018-vizdoom]]
+* TODO Deepj: Style-Specific Music Generation
+[[cite:mao-2018-deepj]]
+* TODO Deep Learning: A Critical Appraisal
+[[cite:marcus-2018-deep-learn]]

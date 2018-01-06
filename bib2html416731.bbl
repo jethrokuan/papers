@@ -1,0 +1,524 @@
+\begin{thebibliography}{10}
+
+\bibitem{holden-2017-phasefunctionnn}
+Last accessed Fri Oct 27 09:30:15 2017.
+
+\bibitem{adami-2017-mind-as}
+Christoph Adami.
+\newblock The mind as a computational system.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{agarwal-2017-deep-networ}
+Basant Agarwal, Heri Ramampiaro, Helge Langseth, and Massimiliano Ruocco.
+\newblock A deep network model for paraphrase detection in short text messages.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{alsallakh-2017-do-convol}
+Bilal Alsallakh, Amin Jourabloo, Mao Ye, Xiaoming Liu, and Liu Ren.
+\newblock Do convolutional neural networks learn class hierarchy?
+\newblock {\em CoRR}, 2017.
+
+\bibitem{andrychowicz-2016-learn-to}
+Marcin Andrychowicz, Misha Denil, Sergio Gomez, Matthew~W. Hoffman, David Pfau,
+  Tom Schaul, Brendan Shillingford, and Nando~de Freitas.
+\newblock Learning to learn by gradient descent by gradient descent.
+\newblock {\em CoRR}, 2016.
+
+\bibitem{antoniou-2017-data-augmen}
+Antreas Antoniou, Amos Storkey, and Harrison Edwards.
+\newblock Data augmentation generative adversarial networks.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{billings-2017-will-human}
+Jay~Jay Billings, Alexander~J. McCaskey, Geoffroy Vallee, and Greg Watson.
+\newblock Will humans even write code in 2040 and what would that mean for
+  extreme heterogeneity in computing?
+\newblock {\em CoRR}, 2017.
+
+\bibitem{bocklisch-2017-rasa}
+Tom Bocklisch, Joey Faulker, Nick Pawlowski, and Alan Nichol.
+\newblock Rasa: Open source language understanding and dialogue management.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{botvinick-2017-build-machin}
+M.~Botvinick, D.~G.~T. Barrett, P.~Battaglia, N.~de Freitas, D.~Kumaran, J.~Z
+  Leibo, T.~Lillicrap, J.~Modayil, S.~Mohamed, N.~C. Rabinowitz, D.~J. Rezende,
+  A.~Santoro, T.~Schaul, C.~Summerfield, G.~Wayne, T.~Weber, D.~Wierstra,
+  S.~Legg, and D.~Hassabis.
+\newblock Building machines that learn and think for themselves: Commentary on
+  lake et al., behavioral and brain sciences, 2017.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{chaudhuri-2017-fast-precis}
+Avik Chaudhuri, Panagiotis Vekris, Sam Goldman, Marshall Roch, and Gabriel
+  Levi.
+\newblock Fast and precise type checking for javascript.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{chavdarova-2017-sgan}
+Tatjana Chavdarova and Fran{\c{c}}ois Fleuret.
+\newblock Sgan: An alternative training of generative adversarial networks.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{chen-2017-survey-dialog-system}
+Hongshen Chen, Xiaorui Liu, Dawei Yin, and Jiliang Tang.
+\newblock A survey on dialogue systems: Recent advances and new frontiers.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{chen-2017-cnn-is}
+Qiming Chen and Ren Wu.
+\newblock Cnn is all you need.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{cheng-2017-survey-model}
+Yu~Cheng, Duo Wang, Pan Zhou, and Tao Zhang.
+\newblock A survey of model compression and acceleration for deep neural
+  networks.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{choi-2017-can-maxout}
+Jae-Seok Choi and Munchurl Kim.
+\newblock Can maxout units downsize restoration networks? - single image
+  super-resolution using lightweight cnn with maxout units.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{choi-2017-starg}
+Yunjey Choi, Minje Choi, Munyoung Kim, Jung-Woo Ha, Sunghun Kim, and Jaegul
+  Choo.
+\newblock Stargan: Unified generative adversarial networks for multi-domain
+  image-to-image translation.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{christiano-2017-deep-reinf}
+Paul Christiano, Jan Leike, Tom~B. Brown, Miljan Martic, Shane Legg, and Dario
+  Amodei.
+\newblock Deep reinforcement learning from human preferences.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{creswell-2017-gener-adver-networ}
+Antonia Creswell, Tom White, Vincent Dumoulin, Kai Arulkumaran, Biswa Sengupta,
+  and Anil~A Bharath.
+\newblock Generative adversarial networks: An overview.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{deng-2017-infer-users}
+Xiaofang Deng, Leilei Wu, Xiaolong Ren, Chunxiao Jia, Yuansheng Zhong, and
+  Linyuan L{\"u}.
+\newblock Inferring users' preferences through leveraging their social
+  relationships.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{fong-2017-backp-as-funct}
+Brendan Fong, David~I. Spivak, and R{\'e}my Tuy{\'e}ras.
+\newblock Backprop as functor: A compositional perspective on supervised
+  learning.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{gao-2017-knowl-concen}
+Jiyang Gao, Zijian, Guo, Zhen Li, and Ram Nevatia.
+\newblock Knowledge concentration: Learning 100k object classifiers in a single
+  cnn.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{gatys15_textur_synth_using_convol_neural_networ}
+Leon~A. Gatys, Alexander~S. Ecker, and Matthias Bethge.
+\newblock Texture synthesis using convolutional neural networks.
+\newblock {\em CoRR}, 2015.
+
+\bibitem{ghaffari-2017-improv-distr}
+Mohsen Ghaffari and Jason Li.
+\newblock Improved distributed algorithms for exact shortest paths.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{ghosh-2017-robus-loss}
+Aritra Ghosh, Himanshu Kumar, and P.~S. Sastry.
+\newblock Robust loss functions under label noise for deep neural networks.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{grewal-2017-chall-detec}
+Karan Grewal and Khai~N. Truong.
+\newblock On the challenges of detecting rude conversational behaviour.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{he-2017-wider-deeper}
+Zhen He, Shaobing Gao, Liang Xiao, Daxue Liu, Hangen He, and David Barber.
+\newblock Wider and deeper, cheaper and faster: Tensorized lstms for sequence
+  learning.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{henderson17_effic_natur_languag_respon_sugges_smart_reply}
+Matthew Henderson, Rami Al-Rfou, Brian Strope, Yun-hsuan Sung, Laszlo Lukacs,
+  Ruiqi Guo, Sanjiv Kumar, Balint Miklos, and Ray Kurzweil.
+\newblock Efficient natural language response suggestion for smart reply.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{holzinger-2017-what-do}
+Andreas Holzinger, Chris Biemann, Constantinos~S. Pattichis, and Douglas~B.
+  Kell.
+\newblock What do we need to build explainable ai systems for the medical
+  domain?
+\newblock {\em CoRR}, 2017.
+
+\bibitem{iandola-2016-squeez}
+Forrest~N. Iandola, Song Han, Matthew~W. Moskewicz, Khalid Ashraf, William~J.
+  Dally, and Kurt Keutzer.
+\newblock Squeezenet: Alexnet-level accuracy with 50x fewer parameters and
+  $<$0.5mb model size.
+\newblock {\em CoRR}, 2016.
+
+\bibitem{kaiser-2017-one-model}
+Lukasz Kaiser, Aidan~N. Gomez, Noam Shazeer, Ashish Vaswani, Niki Parmar, Llion
+  Jones, and Jakob Uszkoreit.
+\newblock One model to learn them all.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{kang-2017-visual-aware}
+Wang-Cheng Kang, Chen Fang, Zhaowen Wang, and Julian McAuley.
+\newblock Visually-aware fashion recommendation and design with generative
+  image models.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{kingma-2013-auto-encod}
+Diederik~P Kingma and Max Welling.
+\newblock Auto-encoding variational bayes.
+\newblock {\em CoRR}, 2013.
+
+\bibitem{kleppmann-2016-confl-free}
+Martin Kleppmann and Alastair~R. Beresford.
+\newblock A conflict-free replicated json datatype.
+\newblock {\em CoRR}, 2016.
+
+\bibitem{kong-2017-take-it}
+Chen Kong and Simon Lucey.
+\newblock Take it in your stride: Do we need striding in cnns?
+\newblock {\em CoRR}, 2017.
+
+\bibitem{kowalski-2017-applic-natur}
+Radoslaw Kowalski, Marc Esteve, and Slava~J. Mikhaylov.
+\newblock Application of natural language processing to determine user
+  satisfaction in public services.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{lai-2015-giraf}
+Matthew Lai.
+\newblock Giraffe: Using deep reinforcement learning to play chess.
+\newblock {\em CoRR}, 2015.
+
+\bibitem{lampinen-2017-one-shot}
+Andrew~K. Lampinen and James~L. McClelland.
+\newblock One-shot and few-shot learning of word embeddings.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{lample-2017-unsup-machin}
+Guillaume Lample, Ludovic Denoyer, and Marc'Aurelio Ranzato.
+\newblock Unsupervised machine translation using monolingual corpora only.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{lehman-2017-safe-mutat}
+Joel Lehman, Jay Chen, Jeff Clune, and Kenneth~O. Stanley.
+\newblock Safe mutations for deep and recurrent neural networks through output
+  gradients.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{li-2017-light-head}
+Zeming Li, Chao Peng, Gang Yu, Xiangyu Zhang, Yangdong Deng, and Jian Sun.
+\newblock Light-head r-cnn: In defense of two-stage object detector.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{liang-2017-new-method}
+Jiaxi Liang, Shojaeddin Chenouri, and Christopher~G. Small.
+\newblock A new method for performance analysis in nonlinear dimensionality
+  reduction.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{lillis-2017-hierar-bloom}
+David Lillis, Frank Breitinger, and Mark Scanlon.
+\newblock Hierarchical bloom filter trees for approximate matching.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{liu17_relat_pins_at_pinter}
+David~C. Liu, Stephanie Rogers, Raymond Shiau, Dmitry Kislyuk, Kevin~C. Ma,
+  Zhigang Zhong, Jenny Liu, and Yushi Jing.
+\newblock Related pins at pinterest: The evolution of a real-world recommender
+  system.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{liu-2017-rubys}
+Huiting Liu, Tao Lin, Hanfei Sun, Weijian Lin, Chih-Wei Chang, Teng Zhong, and
+  Alexander Rudnicky.
+\newblock Rubystar: A non-task-oriented mixture model dialog system.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{loshchilov-2017-fixin-weigh}
+Ilya Loshchilov and Frank Hutter.
+\newblock Fixing weight decay regularization in adam.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{mahendran14_under_deep_image_repres_by_inver_them}
+Aravindh Mahendran and Andrea Vedaldi.
+\newblock Understanding deep image representations by inverting them.
+\newblock {\em CoRR}, 2014.
+
+\bibitem{mao-2018-deepj}
+Huanru~Henry Mao, Taylor Shin, and Garrison~W. Cottrell.
+\newblock Deepj: Style-specific music generation.
+\newblock {\em CoRR}, 2018.
+
+\bibitem{marcus-2018-deep-learn}
+Gary Marcus.
+\newblock Deep learning: A critical appraisal.
+\newblock {\em CoRR}, 2018.
+
+\bibitem{maturana-2017-docum-spann}
+Francisco Maturana, Cristian Riveros, and Domagoj Vrgo{\v{c}}.
+\newblock Document spanners for extracting incomplete information:
+  Expressiveness and complexity.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{melis-2017-state-art}
+G{\'a}bor Melis, Chris Dyer, and Phil Blunsom.
+\newblock On the state of the art of evaluation in neural language models.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{meyer-2017-fourt-years}
+Bertrand Meyer.
+\newblock Fourteen years of software engineering at eth zurich.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{miller-2017-explain-ai}
+Tim Miller, Piers Howe, and Liz Sonenberg.
+\newblock Explainable ai: Beware of inmates running the asylum or: How i learnt
+  to stop worrying and love the social and behavioural sciences.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{misra-2017-learn-by}
+Ishan Misra, Ross Girshick, Rob Fergus, Martial Hebert, Abhinav Gupta, and
+  Laurens van~der Maaten.
+\newblock Learning by asking questions.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{mohapatra-2016-effic-optim}
+Pritish Mohapatra, Michal Rolinek, C.~V. Jawahar, Vladimir Kolmogorov, and
+  M.~Pawan Kumar.
+\newblock Efficient optimization for rank-based loss functions.
+\newblock {\em CoRR}, 2016.
+
+\bibitem{moosavi-dezfooli-2016-univer-adver-pertur}
+Seyed-Mohsen Moosavi-Dezfooli, Alhussein Fawzi, Omar Fawzi, and Pascal
+  Frossard.
+\newblock Universal adversarial perturbations.
+\newblock {\em CoRR}, 2016.
+
+\bibitem{nanfack-2017-squeez-segnet}
+Geraldin Nanfack, Azeddine Elhassouny, and Rachid Oulad~Haj Thami.
+\newblock Squeeze-segnet: A new fast deep convolutional neural network for
+  semantic segmentation.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{poggio-2017-theor-deep}
+Tomaso Poggio, Kenji Kawaguchi, Qianli Liao, Brando Miranda, Lorenzo Rosasco,
+  Xavier Boix, Jack Hidary, and Hrushikesh Mhaskar.
+\newblock Theory of deep learning iii: Explaining the non-overfitting puzzle.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{pons-2017-end-to}
+Jordi Pons, Oriol Nieto, Matthew Prockup, Erik~M. Schmidt, Andreas~F. Ehmann,
+  and Xavier Serra.
+\newblock End-to-end learning for music audio tagging at scale.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{rahman-2017-contin-integ}
+Akond Rahman, Amritanshu Agrawal, Rahul Krishna, Alexander Sobran, and Tim
+  Menzies.
+\newblock Continuous integration: The silver bullet?
+\newblock {\em CoRR}, 2017.
+
+\bibitem{ramachandran-2017-autom}
+Prabhu Ramachandran.
+\newblock Automan: a simple, python-based, automation framework for numerical
+  computing.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{ramachandran17_swish}
+Prajit Ramachandran, Barret Zoph, and Quoc~V. Le.
+\newblock Swish: a self-gated activation function.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{ringgaard-2017-sling}
+Michael Ringgaard, Rahul Gupta, and Fernando C.~N. Pereira.
+\newblock Sling: A framework for frame semantic parsing.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{salehinejad-2017-recen-advan}
+Hojjat Salehinejad, Julianne Baarbe, Sharan Sankar, Joseph Barfett, Errol
+  Colak, and Shahrokh Valaee.
+\newblock Recent advances in recurrent neural networks.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{santander-vela-2017-agile-softw}
+Juande Santander-Vela.
+\newblock Agile software engineering and systems engineering at ska scale.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{schulze-2018-vizdoom}
+Christopher Schulze and Marcus Schulze.
+\newblock Vizdoom: Drqn with prioritized experience replay, double-q learning,
+  & snapshot ensembling.
+\newblock {\em CoRR}, 2018.
+
+\bibitem{seo-2017-neural-speed}
+Minjoon Seo, Sewon Min, Ali Farhadi, and Hannaneh Hajishirzi.
+\newblock Neural speed reading via skim-rnn.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{shalaby-2018-beyon-word-embed}
+Walid Shalaby, Wlodek Zadrozny, and Hongxia Jin.
+\newblock Beyond word embeddings: Learning entity and concept representations
+  from large scale knowledge bases.
+\newblock {\em CoRR}, 2018.
+
+\bibitem{silver-2017-master-chess}
+David Silver, Thomas Hubert, Julian Schrittwieser, Ioannis Antonoglou, Matthew
+  Lai, Arthur Guez, Marc Lanctot, Laurent Sifre, Dharshan Kumaran, Thore
+  Graepel, Timothy Lillicrap, Karen Simonyan, and Demis Hassabis.
+\newblock Mastering chess and shogi by self-play with a general reinforcement
+  learning algorithm.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{singh-2017-replac-or}
+Vikash Singh.
+\newblock Replace or retrieve keywords in documents at scale.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{smith-2017-under-gener}
+Samuel~L. Smith and Quoc~V. Le.
+\newblock Understanding generalization and stochastic gradient descent.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{sriram-2017-robus-speec}
+Anuroop Sriram, Heewoo Jun, Yashesh Gaur, and Sanjeev Satheesh.
+\newblock Robust speech recognition using generative adversarial networks.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{svenstrup-2017-hash-embed}
+Dan Svenstrup, Jonas~Meinertz Hansen, and Ole Winther.
+\newblock Hash embeddings for efficient word representations.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{tolstikhin-2017-wasser-auto-encod}
+Ilya Tolstikhin, Olivier Bousquet, Sylvain Gelly, and Bernhard Schoelkopf.
+\newblock Wasserstein auto-encoders.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{trattner-2017-food-recom-system}
+Christoph Trattner and David Elsweiler.
+\newblock Food recommender systems: Important contributions, challenges and
+  future research directions.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{vaswani-2017-atten-is}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N. Gomez, Lukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{wang-2017-non-local}
+Xiaolong Wang, Ross Girshick, Abhinav Gupta, and Kaiming He.
+\newblock Non-local neural networks.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{wang-2017-iterat-school}
+Zhongxiang Wang, Ali Shafahi, and Ali Haghani.
+\newblock An iterative school decomposition algorithm for solving the
+  multi-school bus routing and scheduling problem.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{wen-2016-networ-based}
+Tsung-Hsien Wen, David Vandyke, Nikola Mrksic, Milica Gasic, Lina~M.
+  Rojas-Barahona, Pei-Hao Su, Stefan Ultes, and Steve Young.
+\newblock A network-based end-to-end trainable task-oriented dialogue system.
+\newblock {\em CoRR}, 2016.
+
+\bibitem{wu-2017-shift}
+Bichen Wu, Alvin Wan, Xiangyu Yue, Peter Jin, Sicheng Zhao, Noah Golmant, Amir
+  Gholaminejad, Joseph Gonzalez, and Kurt Keutzer.
+\newblock Shift: A zero flop, zero parameter alternative to spatial
+  convolutions.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{wu-2017-are-you}
+Qi~Wu, Peng Wang, Chunhua Shen, Ian Reid, and Anton van~den Hengel.
+\newblock Are you talking to me? reasoned visual dialog generation through
+  adversarial learning.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{wu-2016-googl-neural}
+Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc~V. Le, Mohammad Norouzi, Wolfgang
+  Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, Jeff Klingner,
+  Apurva Shah, Melvin Johnson, Xiaobing Liu, Łukasz Kaiser, Stephan Gouws,
+  Yoshikiyo Kato, Taku Kudo, Hideto Kazawa, Keith Stevens, George Kurian,
+  Nishant Patil, Wei Wang, Cliff Young, Jason Smith, Jason Riesa, Alex Rudnick,
+  Oriol Vinyals, Greg Corrado, Macduff Hughes, and Jeffrey Dean.
+\newblock Google's neural machine translation system: Bridging the gap between
+  human and machine translation.
+\newblock {\em CoRR}, 2016.
+
+\bibitem{wu-2017-scalab-trust}
+Yuhuai Wu, Elman Mansimov, Shun Liao, Roger Grosse, and Jimmy Ba.
+\newblock Scalable trust-region method for deep reinforcement learning using
+  kronecker-factored approximation.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{xiang-2017-effec-batch}
+Sitao Xiang and Hao Li.
+\newblock On the effects of batch and weight normalization in generative
+  adversarial networks.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{you-2017-imagen-train-minut}
+Yang You, Zhao Zhang, Cho-Jui Hsieh, James Demmel, and Kurt Keutzer.
+\newblock Imagenet training in minutes.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{young-2017-augmen-end}
+Tom Young, Erik Cambria, Iti Chaturvedi, Minlie Huang, Hao Zhou, and Subham
+  Biswas.
+\newblock Augmenting end-to-end dialog systems with commonsense knowledge.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{yu-2017-artif-intel-statis}
+Bin Yu and Karl Kumbier.
+\newblock Artificial intelligence and statistics.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{zhang-2017-advan-variat-infer}
+Cheng Zhang, Judith Butepage, Hedvig Kjellstrom, and Stephan Mandt.
+\newblock Advances in variational inference.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{zhang-2017-fast-top}
+Fang Zhang, Xiaochen Wang, Jingfei Han, Jie Tang, Shiyin Wang, and
+  Marie-Francine Moens.
+\newblock Fast top-k area topics extraction with knowledge base.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{zhang-2017-actor-critic}
+Li~Zhang, Flood Sung, Feng Liu, Tao Xiang, Shaogang Gong, Yongxin Yang, and
+  Timothy~M. Hospedales.
+\newblock Actor-critic sequence training for image captioning.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{zhang-2017-shuff}
+Xiangyu Zhang, Xinyu Zhou, Mengxiao Lin, and Jian Sun.
+\newblock Shufflenet: An extremely efficient convolutional neural network for
+  mobile devices.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{zhao-2017-lever-long}
+Wei Zhao, Benyou Wang, Jianbo Ye, Yongqiang Gao, Min Yang, Zhou Zhao, and
+  Xiaojun Chen.
+\newblock Leveraging long and short-term information in content-aware movie
+  recommendation.
+\newblock {\em CoRR}, 2017.
+
+\end{thebibliography}

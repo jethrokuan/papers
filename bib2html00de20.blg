@@ -1,0 +1,68 @@
+This is BibTeX, Version 0.99d (TeX Live 2016/NixOS.org)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: bib2html00de20.aux
+The style file: plain.bst
+Database file #1: index.bib
+Warning--to sort, need author or key in holden-2017-phasefunctionnn
+Too many commas in name 1 of "Gao, Jiyang, Zijian, Guo, Li, Zhen, Nevatia, Ram" for entry gao-2017-knowl-concen
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Gao, Jiyang, Zijian, Guo, Li, Zhen, Nevatia, Ram" for entry gao-2017-knowl-concen
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Gao, Jiyang, Zijian, Guo, Li, Zhen, Nevatia, Ram" for entry gao-2017-knowl-concen
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Gao, Jiyang, Zijian, Guo, Li, Zhen, Nevatia, Ram" for entry gao-2017-knowl-concen
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Gao, Jiyang, Zijian, Guo, Li, Zhen, Nevatia, Ram" for entry gao-2017-knowl-concen
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Gao, Jiyang, Zijian, Guo, Li, Zhen, Nevatia, Ram" for entry gao-2017-knowl-concen
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Gao, Jiyang, Zijian, Guo, Li, Zhen, Nevatia, Ram" for entry gao-2017-knowl-concen
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Gao, Jiyang, Zijian, Guo, Li, Zhen, Nevatia, Ram" for entry gao-2017-knowl-concen
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Gao, Jiyang, Zijian, Guo, Li, Zhen, Nevatia, Ram" for entry gao-2017-knowl-concen
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Gao, Jiyang, Zijian, Guo, Li, Zhen, Nevatia, Ram" for entry gao-2017-knowl-concen
+while executing---line 1090 of file plain.bst
+You've used 91 entries,
+            2118 wiz_defined-function locations,
+            776 strings with 19191 characters,
+and the built_in function-call counts, 28873 in all, are:
+= -- 2533
+> -- 2313
+< -- 0
++ -- 919
+- -- 820
+* -- 2073
+:= -- 5454
+add.period$ -- 271
+call.type$ -- 91
+change.case$ -- 682
+chr.to.int$ -- 0
+cite$ -- 92
+duplicate$ -- 907
+empty$ -- 1554
+format.name$ -- 820
+if$ -- 5491
+int.to.chr$ -- 0
+int.to.str$ -- 91
+missing$ -- 90
+newline$ -- 456
+num.names$ -- 180
+pop$ -- 692
+preamble$ -- 1
+purify$ -- 592
+quote$ -- 0
+skip$ -- 652
+stack$ -- 0
+substring$ -- 463
+swap$ -- 91
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 364
+warning$ -- 1
+while$ -- 180
+width$ -- 93
+write$ -- 907
+(There were 10 error messages)
