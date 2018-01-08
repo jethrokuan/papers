@@ -1,4 +1,2 @@
 * Jethro's Paper Archive
-Paper reading goal: 365 papers a year!!
-
-To track progress: [[file:papers.org]]
+Paper reading goal: 365 papers a year

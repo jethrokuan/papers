@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2016/NixOS.org)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: bib2htmle9b2c3.aux
+The style file: plain.bst
+Database file #1: index.bib
+Warning--to sort, need author or key in holden-2017-phasefunctionnn
+Too many commas in name 1 of "Gao, Guo, Li, Ram" for entry gao-2017-knowl-concen
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Gao, Guo, Li, Ram" for entry gao-2017-knowl-concen
+while executing---line 1090 of file plain.bst
+You've used 104 entries,
+            2118 wiz_defined-function locations,
+            815 strings with 21530 characters,
+and the built_in function-call counts, 33177 in all, are:
+= -- 2908
+> -- 2672
+< -- 0
++ -- 1062
+- -- 948
+* -- 2389
+:= -- 6269
+add.period$ -- 310
+call.type$ -- 104
+change.case$ -- 785
+chr.to.int$ -- 0
+cite$ -- 105
+duplicate$ -- 1037
+empty$ -- 1775
+format.name$ -- 948
+if$ -- 6305
+int.to.chr$ -- 0
+int.to.str$ -- 104
+missing$ -- 103
+newline$ -- 521
+num.names$ -- 206
+pop$ -- 795
+preamble$ -- 1
+purify$ -- 682
+quote$ -- 0
+skip$ -- 747
+stack$ -- 0
+substring$ -- 530
+swap$ -- 104
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 416
+warning$ -- 1
+while$ -- 206
+width$ -- 107
+write$ -- 1037
+(There were 2 error messages)

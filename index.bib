@@ -258,68 +258,6 @@
     note = {Last accessed Fri Oct 27 09:30:15 2017}
   }
 
-@article{wu-2016-googl-neural,
-  author =       {Wu, Yonghui and Schuster, Mike and Chen, Zhifeng and
-                  Le, Quoc V. and Norouzi, Mohammad and Macherey,
-                  Wolfgang and Krikun, Maxim and Cao, Yuan and Gao,
-                  Qin and Macherey, Klaus and Klingner, Jeff and Shah,
-                  Apurva and Johnson, Melvin and Liu, Xiaobing and
-                  Kaiser, Łukasz and Gouws, Stephan and Kato,
-                  Yoshikiyo and Kudo, Taku and Kazawa, Hideto and
-                  Stevens, Keith and Kurian, George and Patil, Nishant
-                  and Wang, Wei and Young, Cliff and Smith, Jason and
-                  Riesa, Jason and Rudnick, Alex and Vinyals, Oriol
-                  and Corrado, Greg and Hughes, Macduff and Dean,
-                  Jeffrey},
-  title =        {Google's Neural Machine Translation System: Bridging
-                  the Gap Between Human and Machine Translation},
-  journal =      {CoRR},
-  year =         2016,
-  url =          {http://arxiv.org/abs/1609.08144v2},
-  abstract =     {Neural Machine Translation (NMT) is an end-to-end
-                  learning approach for automated translation, with
-                  the potential to overcome many of the weaknesses of
-                  conventional phrase-based translation systems.
-                  Unfortunately, NMT systems are known to be
-                  computationally expensive both in training and in
-                  translation inference. Also, most NMT systems have
-                  difficulty with rare words. These issues have
-                  hindered NMT's use in practical deployments and
-                  services, where both accuracy and speed are
-                  essential. In this work, we present GNMT, Google's
-                  Neural Machine Translation system, which attempts to
-                  address many of these issues. Our model consists of
-                  a deep LSTM network with 8 encoder and 8 decoder
-                  layers using attention and residual connections. To
-                  improve parallelism and therefore decrease training
-                  time, our attention mechanism connects the bottom
-                  layer of the decoder to the top layer of the
-                  encoder. To accelerate the final translation speed,
-                  we employ low-precision arithmetic during inference
-                  computations. To improve handling of rare words, we
-                  divide words into a limited set of common sub-word
-                  units ("wordpieces") for both input and output. This
-                  method provides a good balance between the
-                  flexibility of "character"-delimited models and the
-                  efficiency of "word"-delimited models, naturally
-                  handles translation of rare words, and ultimately
-                  improves the overall accuracy of the system. Our
-                  beam search technique employs a length-normalization
-                  procedure and uses a coverage penalty, which
-                  encourages generation of an output sentence that is
-                  most likely to cover all the words in the source
-                  sentence. On the WMT'14 English-to-French and
-                  English-to-German benchmarks, GNMT achieves
-                  competitive results to state-of-the-art. Using a
-                  human side-by-side evaluation on a set of isolated
-                  simple sentences, it reduces translation errors by
-                  an average of 60 \% compared to Google's
-                  phrase-based production system.},
-  archivePrefix ={arXiv},
-  eprint =       {1609.08144},
-  primaryClass = {cs.CL},
-}
-
 @article{moosavi-dezfooli-2016-univer-adver-pertur,
   author =       {Moosavi-Dezfooli, Seyed-Mohsen and Fawzi, Alhussein
                   and Fawzi, Omar and Frossard, Pascal},
@@ -380,6 +318,68 @@
   archivePrefix ={arXiv},
   eprint =       {1312.6114},
   primaryClass = {stat.ML},
+}
+
+@article{wu-2016-googl-neural,
+  author =       {Wu, Yonghui and Schuster, Mike and Chen, Zhifeng and
+                  Le, Quoc V. and Norouzi, Mohammad and Macherey,
+                  Wolfgang and Krikun, Maxim and Cao, Yuan and Gao,
+                  Qin and Macherey, Klaus and Klingner, Jeff and Shah,
+                  Apurva and Johnson, Melvin and Liu, Xiaobing and
+                  Kaiser, Łukasz and Gouws, Stephan and Kato,
+                  Yoshikiyo and Kudo, Taku and Kazawa, Hideto and
+                  Stevens, Keith and Kurian, George and Patil, Nishant
+                  and Wang, Wei and Young, Cliff and Smith, Jason and
+                  Riesa, Jason and Rudnick, Alex and Vinyals, Oriol
+                  and Corrado, Greg and Hughes, Macduff and Dean,
+                  Jeffrey},
+  title =        {Google's Neural Machine Translation System: Bridging
+                  the Gap Between Human and Machine Translation},
+  journal =      {CoRR},
+  year =         2016,
+  url =          {http://arxiv.org/abs/1609.08144v2},
+  abstract =     {Neural Machine Translation (NMT) is an end-to-end
+                  learning approach for automated translation, with
+                  the potential to overcome many of the weaknesses of
+                  conventional phrase-based translation systems.
+                  Unfortunately, NMT systems are known to be
+                  computationally expensive both in training and in
+                  translation inference. Also, most NMT systems have
+                  difficulty with rare words. These issues have
+                  hindered NMT's use in practical deployments and
+                  services, where both accuracy and speed are
+                  essential. In this work, we present GNMT, Google's
+                  Neural Machine Translation system, which attempts to
+                  address many of these issues. Our model consists of
+                  a deep LSTM network with 8 encoder and 8 decoder
+                  layers using attention and residual connections. To
+                  improve parallelism and therefore decrease training
+                  time, our attention mechanism connects the bottom
+                  layer of the decoder to the top layer of the
+                  encoder. To accelerate the final translation speed,
+                  we employ low-precision arithmetic during inference
+                  computations. To improve handling of rare words, we
+                  divide words into a limited set of common sub-word
+                  units ("wordpieces") for both input and output. This
+                  method provides a good balance between the
+                  flexibility of "character"-delimited models and the
+                  efficiency of "word"-delimited models, naturally
+                  handles translation of rare words, and ultimately
+                  improves the overall accuracy of the system. Our
+                  beam search technique employs a length-normalization
+                  procedure and uses a coverage penalty, which
+                  encourages generation of an output sentence that is
+                  most likely to cover all the words in the source
+                  sentence. On the WMT'14 English-to-French and
+                  English-to-German benchmarks, GNMT achieves
+                  competitive results to state-of-the-art. Using a
+                  human side-by-side evaluation on a set of isolated
+                  simple sentences, it reduces translation errors by
+                  an average of 60 \% compared to Google's
+                  phrase-based production system.},
+  archivePrefix ={arXiv},
+  eprint =       {1609.08144},
+  primaryClass = {cs.CL},
 }
 
 @article{vaswani-2017-atten-is,
@@ -585,7 +585,8 @@
 }
 
 @article{lample-2017-unsup-machin,
-  author =       {Lample, Guillaume and Denoyer, Ludovic and Ranzato, Marc'Aurelio},
+  author =       {Lample, Guillaume and Denoyer, Ludovic and Ranzato,
+                  Marc'Aurelio},
   title =        {Unsupervised Machine Translation Using Monolingual
                   Corpora Only},
   journal =      {CoRR},
@@ -1606,6 +1607,52 @@
                   results on the primary benchmark.},
   archivePrefix ={arXiv},
   eprint =       {1711.07613v1},
+  primaryClass = {cs.CV},
+}
+
+@article{gao-2017-knowl-concen,
+  author =       {Jiyang Gao, Zijian Guo, Zhen Li and Ram},
+  title =        {Knowledge Concentration: Learning 100k Object
+                  Classifiers in a Single Cnn},
+  journal =      {CoRR},
+  year =         2017,
+  url =          {http://arxiv.org/abs/1711.07607v1},
+  abstract =     {Fine-grained image labels are desirable for many
+                  computer vision applications, such as visual search
+                  or mobile AI assistant. These applications rely on
+                  image classification models that can produce
+                  hundreds of thousands (e.g. 100K) of diversified
+                  fine-grained image labels on input images. However,
+                  training a network at this vocabulary scale is
+                  challenging, and suffers from intolerable large
+                  model size and slow training speed, which leads to
+                  unsatisfying classification performance. A
+                  straightforward solution would be training separate
+                  expert networks (specialists), with each specialist
+                  focusing on learning one specific vertical (e.g.
+                  cars, birds...). However, deploying dozens of expert
+                  networks in a practical system would significantly
+                  increase system complexity and inference latency,
+                  and consumes large amounts of computational
+                  resources. To address these challenges, we propose a
+                  Knowledge Concentration method, which effectively
+                  transfers the knowledge from dozens of specialists
+                  (multiple teacher networks) into one single model
+                  (one student network) to classify 100K object
+                  categories. There are three salient aspects in our
+                  method: (1) a multi-teacher single-student knowledge
+                  distillation framework; (2) a self-paced learning
+                  mechanism to allow the student to learn from
+                  different teachers at various paces; (3)
+                  structurally connected layers to expand the student
+                  network capacity with limited extra parameters. We
+                  validate our method on OpenImage and a newly
+                  collected dataset, Entity-Foto-Tree (EFT), with 100K
+                  categories, and show that the proposed model
+                  performs significantly better than the baseline
+                  generalist model.},
+  archivePrefix ={arXiv},
+  eprint =       {1711.07607v1},
   primaryClass = {cs.CV},
 }
 
@@ -3059,3 +3106,493 @@
   primaryClass = {stat.ML},
 }
 
+@article{akhtar-2018-threat-adver,
+  author =       {Akhtar, Naveed and Mian, Ajmal},
+  title =        {Threat of Adversarial Attacks on Deep Learning in
+                  Computer Vision: A Survey},
+  journal =      {CoRR},
+  year =         2018,
+  url =          {http://arxiv.org/abs/1801.00553v2},
+  abstract =     {Deep learning is at the heart of the current rise of
+                  machine learning and artificial intelligence. In the
+                  field of Computer Vision, it has become the
+                  workhorse for applications ranging from self-driving
+                  cars to surveillance and security. Whereas deep
+                  neural networks have demonstrated phenomenal success
+                  (often beyond human capabilities) in solving complex
+                  problems, recent studies show that they are
+                  vulnerable to adversarial attacks in the form of
+                  subtle perturbations to inputs that lead a model to
+                  predict incorrect outputs. For images, such
+                  perturbations are often too small to be perceptible,
+                  yet they completely fool the deep learning models.
+                  Adversarial attacks pose a serious threat to the
+                  success of deep learning in practice. This fact has
+                  lead to a large influx of contributions in this
+                  direction. This article presents the first
+                  comprehensive survey on adversarial attacks on deep
+                  learning in Computer Vision. We review the works
+                  that design adversarial attacks, analyze the
+                  existence of such attacks and propose defenses
+                  against them. To emphasize that adversarial attacks
+                  are possible in practical conditions, we separately
+                  review the contributions that evaluate adversarial
+                  attacks in the real-world scenarios. Finally, we
+                  draw on the literature to provide a broader outlook
+                  of the research direction.},
+  archivePrefix ={arXiv},
+  eprint =       {1801.00553},
+  primaryClass = {cs.CV},
+}
+
+@article{vural-2015-study-class,
+  author =       {Vural, Elif and Guillemot, Christine},
+  title =        {A Study of the Classification of Low-Dimensional
+                  Data With Supervised Manifold Learning},
+  journal =      {CoRR},
+  year =         2015,
+  url =          {http://arxiv.org/abs/1507.05880v3},
+  abstract =     {Supervised manifold learning methods learn data
+                  representations by preserving the geometric
+                  structure of data while enhancing the separation
+                  between data samples from different classes. In this
+                  work, we propose a theoretical study of supervised
+                  manifold learning for classification. We consider
+                  nonlinear dimensionality reduction algorithms that
+                  yield linearly separable embeddings of training data
+                  and present generalization bounds for this type of
+                  algorithms. A necessary condition for satisfactory
+                  generalization performance is that the embedding
+                  allow the construction of a sufficiently regular
+                  interpolation function in relation with the
+                  separation margin of the embedding. We show that for
+                  supervised embeddings satisfying this condition, the
+                  classification error decays at an exponential rate
+                  with the number of training samples. Finally, we
+                  examine the separability of supervised nonlinear
+                  embeddings that aim to preserve the low-dimensional
+                  geometric structure of data based on graph
+                  representations. The proposed analysis is supported
+                  by experiments on several real data sets.},
+  archivePrefix ={arXiv},
+  eprint =       {1507.05880},
+  primaryClass = {cs.LG},
+}
+
+@article{rodriguez-2018-shiel-googl,
+  author =       {Rodriguez, Nestor and Rojas-Galeano, Sergio},
+  title =        {Shielding Google's Language Toxicity Model Against
+                  Adversarial Attacks},
+  journal =      {CoRR},
+  year =         2018,
+  url =          {http://arxiv.org/abs/1801.01828v1},
+  abstract =     {Lack of moderation in online communities enables
+                  participants to incur in personal aggression,
+                  harassment or cyberbullying, issues that have been
+                  accentuated by extremist radicalisation in the
+                  contemporary post-truth politics scenario. This kind
+                  of hostility is usually expressed by means of toxic
+                  language, profanity or abusive statements. Recently
+                  Google has developed a machine-learning-based
+                  toxicity model in an attempt to assess the hostility
+                  of a comment; unfortunately, it has been suggested
+                  that said model can be deceived by adversarial
+                  attacks that manipulate the text sequence of the
+                  comment. In this paper we firstly characterise such
+                  adversarial attacks as using obfuscation and
+                  polarity transformations. The former deceives by
+                  corrupting toxic trigger content with typographic
+                  edits, whereas the latter deceives by grammatical
+                  negation of the toxic content. Then, we propose a
+                  two--stage approach to counter--attack these
+                  anomalies, bulding upon a recently proposed text
+                  deobfuscation method and the toxicity scoring model.
+                  Lastly, we conducted an experiment with
+                  approximately 24000 distorted comments, showing how
+                  in this way it is feasible to restore toxicity of
+                  the adversarial variants, while incurring roughly on
+                  a twofold increase in processing time. Even though
+                  novel adversary challenges would keep coming up
+                  derived from the versatile nature of written
+                  language, we anticipate that techniques combining
+                  machine learning and text pattern recognition
+                  methods, each one targeting different layers of
+                  linguistic features, would be needed to achieve
+                  robust detection of toxic language, thus fostering
+                  aggression--free digital interaction.},
+  archivePrefix ={arXiv},
+  eprint =       {1801.01828},
+  primaryClass = {cs.CL},
+}
+
+@article{contractor-2018-towar-under,
+  author =       {Contractor, Danish and Patra, Barun and Singla,
+                  Mausam and Singla, Parag},
+  title =        {Towards Understanding and Answering Multi-Sentence
+                  Recommendation Questions on Tourism},
+  journal =      {CoRR},
+  year =         2018,
+  url =          {http://arxiv.org/abs/1801.01825v1},
+  abstract =     {We introduce the first system towards the novel task
+                  of answering complex multisentence recommendation
+                  questions in the tourism domain. Our solution uses a
+                  pipeline of two modules: question understanding and
+                  answering. For question understanding, we define an
+                  SQL-like query language that captures the semantic
+                  intent of a question; it supports operators like
+                  subset, negation, preference and similarity, which
+                  are often found in recommendation questions. We
+                  train and compare traditional CRFs as well as
+                  bidirectional LSTM-based models for converting a
+                  question to its semantic representation. We extend
+                  these models to a semisupervised setting with
+                  partially labeled sequences gathered through
+                  crowdsourcing. We find that our best model performs
+                  semi-supervised training of BiDiLSTM+CRF with
+                  hand-designed features and CCM(Chang et al., 2007)
+                  constraints. Finally, in an end to end QA system,
+                  our answering component converts our question
+                  representation into queries fired on underlying
+                  knowledge sources. Our experiments on two different
+                  answer corpora demonstrate that our system can
+                  significantly outperform baselines with up to 20 pt
+                  higher accuracy and 17 pt higher recall.},
+  archivePrefix ={arXiv},
+  eprint =       {1801.01825},
+  primaryClass = {cs.CL},
+}
+
+@article{florescu-2018-learn-featur,
+  author =       {Florescu, Corina and Jin, Wei},
+  title =        {Learning Feature Representations for Keyphrase
+                  Extraction},
+  journal =      {CoRR},
+  year =         2018,
+  url =          {http://arxiv.org/abs/1801.01768v1},
+  abstract =     {In supervised approaches for keyphrase extraction, a
+                  candidate phrase is encoded with a set of
+                  hand-crafted features and machine learning
+                  algorithms are trained to discriminate keyphrases
+                  from non-keyphrases. Although the manually-designed
+                  features have shown to work well in practice,
+                  feature engineering is a difficult process that
+                  requires expert knowledge and normally does not
+                  generalize well. In this paper, we present SurfKE, a
+                  feature learning framework that exploits the text
+                  itself to automatically discover patterns that
+                  keyphrases exhibit. Our model represents the
+                  document as a graph and automatically learns feature
+                  representation of phrases. The proposed model
+                  obtains remarkable improvements in performance over
+                  strong baselines.},
+  archivePrefix ={arXiv},
+  eprint =       {1801.01768},
+  primaryClass = {cs.CL},
+}
+
+@article{charte-2018-pract-tutor,
+  author =       {Charte, David and Charte, Francisco and Garc{\'i}a,
+                  Salvador and Jesus, Mar{\'i}a J. del and Herrera,
+                  Francisco},
+  title =        {A Practical Tutorial on Autoencoders for Nonlinear
+                  Feature Fusion: Taxonomy, Models, Software and
+                  Guidelines},
+  journal =      {CoRR},
+  year =         2018,
+  url =          {http://arxiv.org/abs/1801.01586v1},
+  abstract =     {Many of the existing machine learning algorithms,
+                  both supervised and unsupervised, depend on the
+                  quality of the input characteristics to generate a
+                  good model. The amount of these variables is also
+                  important, since performance tends to decline as the
+                  input dimensionality increases, hence the interest
+                  in using feature fusion techniques, able to produce
+                  feature sets that are more compact and higher level.
+                  A plethora of procedures to fuse original variables
+                  for producing new ones has been developed in the
+                  past decades. The most basic ones use linear
+                  combinations of the original variables, such as PCA
+                  (Principal Component Analysis) and LDA (Linear
+                  Discriminant Analysis), while others find manifold
+                  embeddings of lower dimensionality based on
+                  non-linear combinations, such as Isomap or LLE
+                  (Linear Locally Embedding) techniques. More
+                  recently, autoencoders (AEs) have emerged as an
+                  alternative to manifold learning for conducting
+                  nonlinear feature fusion. Dozens of AE models have
+                  been proposed lately, each with its own specific
+                  traits. Although many of them can be used to
+                  generate reduced feature sets through the fusion of
+                  the original ones, there also AEs designed with
+                  other applications in mind. The goal of this paper
+                  is to provide the reader with a broad view of what
+                  an AE is, how they are used for feature fusion, a
+                  taxonomy gathering a broad range of models, and how
+                  they relate to other classical techniques. In
+                  addition, a set of didactic guidelines on how to
+                  choose the proper AE for a given task is supplied,
+                  together with a discussion of the software tools
+                  available. Finally, two case studies illustrate the
+                  usage of AEs with datasets of handwritten digits and
+                  breast cancer.},
+  archivePrefix ={arXiv},
+  eprint =       {1801.01586},
+  primaryClass = {cs.LG},
+}
+
+@article{poddar-2018-clust-data,
+  author =       {Poddar, Sunrita and Jacob, Mathews},
+  title =        {Clustering of Data With Missing Entries},
+  journal =      {CoRR},
+  year =         2018,
+  url =          {http://arxiv.org/abs/1801.01455v1},
+  abstract =     {The analysis of large datasets is often complicated
+                  by the presence of missing entries, mainly because
+                  most of the current machine learning algorithms are
+                  designed to work with full data. The main focus of
+                  this work is to introduce a clustering algorithm,
+                  that will provide good clustering even in the
+                  presence of missing data. The proposed technique
+                  solves an $\ell_0$ fusion penalty based optimization
+                  problem to recover the clusters. We theoretically
+                  analyze the conditions needed for the successful
+                  recovery of the clusters. We also propose an
+                  algorithm to solve a relaxation of this problem
+                  using saturating non-convex fusion penalties. The
+                  method is demonstrated on simulated and real
+                  datasets, and is observed to perform well in the
+                  presence of large fractions of missing entries.},
+  archivePrefix ={arXiv},
+  eprint =       {1801.01455},
+  primaryClass = {cs.LG},
+}
+
+@article{weatherall-2018-how-to,
+  author =       {Weatherall, James Owen and O'Connor, Cailin and
+                  Bruner, Justin},
+  title =        {How To Beat Science and Influence People: Policy
+                  Makers and Propaganda in Epistemic Networks},
+  journal =      {CoRR},
+  year =         2018,
+  url =          {http://arxiv.org/abs/1801.01239v1},
+  abstract =     {In their recent book Merchants of Doubt [New
+                  York:Bloomsbury 2010], Naomi Oreskes and Erik Conway
+                  describe the "tobacco strategy", which was used by
+                  the tobacco industry to influence policy makers
+                  regarding the health risks of tobacco products. The
+                  strategy involved two parts, consisting of (1)
+                  promoting and sharing independent research
+                  supporting the industry's preferred position and (2)
+                  funding additional research, but selectively
+                  publishing the results. We introduce a model of the
+                  Tobacco Strategy, and use it to argue that both
+                  prongs of the strategy can be extremely
+                  effective--even when policy makers rationally update
+                  on all evidence available to them. As we elaborate,
+                  this model helps illustrate the conditions under
+                  which the Tobacco Strategy is particularly
+                  successful. In addition, we show how journalists
+                  engaged in "fair" reporting can inadvertently mimic
+                  the effects of industry on public belief.},
+  archivePrefix ={arXiv},
+  eprint =       {1801.01239},
+  primaryClass = {cs.SI},
+}
+
+@article{lipp-2018-meltd,
+  author =       {Lipp, Moritz and Schwarz, Michael and Gruss, Daniel
+                  and Prescher, Thomas and Haas, Werner and Mangard,
+                  Stefan and Kocher, Paul and Genkin, Daniel and
+                  Yarom, Yuval and Hamburg, Mike},
+  title =        {Meltdown},
+  journal =      {CoRR},
+  year =         2018,
+  url =          {http://arxiv.org/abs/1801.01207v1},
+  abstract =     {The security of computer systems fundamentally
+                  relies on memory isolation, e.g., kernel address
+                  ranges are marked as non-accessible and are
+                  protected from user access. In this paper, we
+                  present Meltdown. Meltdown exploits side effects of
+                  out-of-order execution on modern processors to read
+                  arbitrary kernel-memory locations including personal
+                  data and passwords. Out-of-order execution is an
+                  indispensable performance feature and present in a
+                  wide range of modern processors. The attack works on
+                  different Intel microarchitectures since at least
+                  2010 and potentially other processors are affected.
+                  The root cause of Meltdown is the hardware. The
+                  attack is independent of the operating system, and
+                  it does not rely on any software vulnerabilities.
+                  Meltdown breaks all security assumptions given by
+                  address space isolation as well as paravirtualized
+                  environments and, thus, every security mechanism
+                  building upon this foundation. On affected systems,
+                  Meltdown enables an adversary to read memory of
+                  other processes or virtual machines in the cloud
+                  without any permissions or privileges, affecting
+                  millions of customers and virtually every user of a
+                  personal computer. We show that the KAISER defense
+                  mechanism for KASLR has the important (but
+                  inadvertent) side effect of impeding Meltdown. We
+                  stress that KAISER must be deployed immediately to
+                  prevent large-scale exploitation of this severe
+                  information leakage.},
+  archivePrefix ={arXiv},
+  eprint =       {1801.01207},
+  primaryClass = {cs.CR},
+}
+
+@article{kocher-2018-spect-attac,
+  author =       {Kocher, Paul and Genkin, Daniel and Gruss, Daniel
+                  and Haas, Werner and Hamburg, Mike and Lipp, Moritz
+                  and Mangard, Stefan and Prescher, Thomas and
+                  Schwarz, Michael and Yarom, Yuval},
+  title =        {Spectre Attacks: Exploiting Speculative Execution},
+  journal =      {CoRR},
+  year =         2018,
+  url =          {http://arxiv.org/abs/1801.01203v1},
+  abstract =     {Modern processors use branch prediction and
+                  speculative execution to maximize performance. For
+                  example, if the destination of a branch depends on a
+                  memory value that is in the process of being read,
+                  CPUs will try guess the destination and attempt to
+                  execute ahead. When the memory value finally
+                  arrives, the CPU either discards or commits the
+                  speculative computation. Speculative logic is
+                  unfaithful in how it executes, can access to the
+                  victim's memory and registers, and can perform
+                  operations with measurable side effects. Spectre
+                  attacks involve inducing a victim to speculatively
+                  perform operations that would not occur during
+                  correct program execution and which leak the
+                  victim's confidential information via a side channel
+                  to the adversary. This paper describes practical
+                  attacks that combine methodology from side channel
+                  attacks, fault attacks, and return-oriented
+                  programming that can read arbitrary memory from the
+                  victim's process. More broadly, the paper shows that
+                  speculative execution implementations violate the
+                  security assumptions underpinning numerous software
+                  security mechanisms, including operating system
+                  process separation, static analysis,
+                  containerization, just-in-time (JIT) compilation,
+                  and countermeasures to cache timing/side-channel
+                  attacks. These attacks represent a serious threat to
+                  actual systems, since vulnerable speculative
+                  execution capabilities are found in microprocessors
+                  from Intel, AMD, and ARM that are used in billions
+                  of devices. While makeshift processor-specific
+                  countermeasures are possible in some cases, sound
+                  solutions will require fixes to processor designs as
+                  well as updates to instruction set architectures
+                  (ISAs) to give hardware architects and software
+                  developers a common understanding as to what
+                  computation state CPU implementations are (and are
+                  not) permitted to leak.},
+  archivePrefix ={arXiv},
+  eprint =       {1801.01203},
+  primaryClass = {cs.CR},
+}
+
+@article{lake-2016-build-machin,
+  author =       {Lake, Brenden M. and Ullman, Tomer D. and Tenenbaum,
+                  Joshua B. and Gershman, Samuel J.},
+  title =        {Building Machines That Learn and Think Like People},
+  journal =      {CoRR},
+  year =         2016,
+  url =          {http://arxiv.org/abs/1604.00289v3},
+  abstract =     {Recent progress in artificial intelligence (AI) has
+                  renewed interest in building systems that learn and
+                  think like people. Many advances have come from
+                  using deep neural networks trained end-to-end in
+                  tasks such as object recognition, video games, and
+                  board games, achieving performance that equals or
+                  even beats humans in some respects. Despite their
+                  biological inspiration and performance achievements,
+                  these systems differ from human intelligence in
+                  crucial ways. We review progress in cognitive
+                  science suggesting that truly human-like learning
+                  and thinking machines will have to reach beyond
+                  current engineering trends in both what they learn,
+                  and how they learn it. Specifically, we argue that
+                  these machines should (a) build causal models of the
+                  world that support explanation and understanding,
+                  rather than merely solving pattern recognition
+                  problems; (b) ground learning in intuitive theories
+                  of physics and psychology, to support and enrich the
+                  knowledge that is learned; and (c) harness
+                  compositionality and learning-to-learn to rapidly
+                  acquire and generalize knowledge to new tasks and
+                  situations. We suggest concrete challenges and
+                  promising routes towards these goals that can
+                  combine the strengths of recent neural network
+                  advances with more structured cognitive models.},
+  archivePrefix ={arXiv},
+  eprint =       {1604.00289},
+  primaryClass = {cs.AI},
+}
+@article{foster-2017-param-free,
+  author =       {Foster, Dylan J. and Kale, Satyen and Mohri, Mehryar
+                  and Sridharan, Karthik},
+  title =        {Parameter-Free Online Learning Via Model Selection},
+  journal =      {CoRR},
+  year =         2017,
+  url =          {http://arxiv.org/abs/1801.00101v2},
+  abstract =     {We introduce an efficient algorithmic framework for
+                  model selection in online learning, also known as
+                  parameter-free online learning. Departing from
+                  previous work, which has focused on highly
+                  structured function classes such as nested balls in
+                  Hilbert space, we propose a generic meta-algorithm
+                  framework that achieves online model selection
+                  oracle inequalities under minimal structural
+                  assumptions. We give the first computationally
+                  efficient parameter-free algorithms that work in
+                  arbitrary Banach spaces under mild smoothness
+                  assumptions; previous results applied only to
+                  Hilbert spaces. We further derive new oracle
+                  inequalities for matrix classes, non-nested convex
+                  sets, and $\mathbb{R}^{d}$ with generic
+                  regularizers. Finally, we generalize these results
+                  by providing oracle inequalities for arbitrary
+                  non-linear classes in the online supervised learning
+                  model. These results are all derived through a
+                  unified meta-algorithm scheme using a novel
+                  "multi-scale" algorithm for prediction with expert
+                  advice based on random playout, which may be of
+                  independent interest.},
+  archivePrefix ={arXiv},
+  eprint =       {1801.00101v2},
+  primaryClass = {cs.LG},
+}
+
+@article{weber-2017-imagin-augmen,
+  author =       {Weber, Th{\'e}ophane and Racani{\`e}re,
+                  S{\'e}bastien and Reichert, David P. and Buesing,
+                  Lars and Guez, Arthur and Rezende, Danilo Jimenez
+                  and Badia, Adria Puigdom{\`e}nech and Vinyals, Oriol
+                  and Heess, Nicolas and Li, Yujia and Pascanu, Razvan
+                  and Battaglia, Peter and Silver, David and Wierstra,
+                  Daan},
+  title =        {Imagination-Augmented Agents for Deep Reinforcement
+                  Learning},
+  journal =      {CoRR},
+  year =         2017,
+  url =          {http://arxiv.org/abs/1707.06203v1},
+  abstract =     {We introduce Imagination-Augmented Agents (I2As), a
+                  novel architecture for deep reinforcement learning
+                  combining model-free and model-based aspects. In
+                  contrast to most existing model-based reinforcement
+                  learning and planning methods, which prescribe how a
+                  model should be used to arrive at a policy, I2As
+                  learn to interpret predictions from a learned
+                  environment model to construct implicit plans in
+                  arbitrary ways, by using the predictions as
+                  additional context in deep policy networks. I2As
+                  show improved data efficiency, performance, and
+                  robustness to model misspecification compared to
+                  several baselines.},
+  archivePrefix ={arXiv},
+  eprint =       {1707.06203},
+  primaryClass = {cs.LG},
+}

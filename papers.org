@@ -173,3 +173,38 @@
 [[cite:mao-2018-deepj]]
 * TODO Deep Learning: A Critical Appraisal
 [[cite:marcus-2018-deep-learn]]
+* TODO Recent Advances in Recurrent Neural Networks
+[[cite:salehinejad-2017-recen-advan][Salehinejad et al. 2017: Recent Advances Recurrent]]
+* TODO A Survey of Model Compression and Acceleration for Deep Neural Networks
+[[cite:cheng-2017-survey-model][Cheng et al. 2017: Survey Model Compression]]
+* TODO Artificial Intelligence and Statistics
+[[cite:yu-2017-artif-intel-statis][Yu & Kumbier 2017: Artificial Intelligence Statistics]]
+* TODO Threat of Adversarial Attacks on Deep Learning in Computer Vision: A Survey
+[[cite:akhtar-2018-threat-adver][Akhtar & Mian 2018: Threat Adversarial Attacks]]
+* TODO A Study of the Classification of Low-Dimensional Data With Supervised Manif
+[[cite:vural-2015-study-class][Vural & Guillemot 2015: Study Classification Low]]
+* TODO Shielding Google's Language Toxicity Model Against Adversarial Attacks
+[[cite:rodriguez-2018-shiel-googl][Rodriguez & Rojas-Galeano 2018: Shielding Googles Language]]
+* TODO Towards Understanding and Answering Multi-Sentence Recommendation Questions
+[[cite:contractor-2018-towar-under][Contractor et al. 2018: Towards Understanding Answering]]
+* TODO Learning Feature Representations for Keyphrase Extraction
+[[cite:florescu-2018-learn-featur][Florescu & Jin 2018: Learning Feature Representations]]
+* TODO A Practical Tutorial on Autoencoders for Nonlinear Feature Fusion: Taxonomy
+[[cite:charte-2018-pract-tutor][Charte et al. 2018: Practical Tutorial Autoencoders]]
+* TODO Clustering of Data With Missing Entries
+[[cite:poddar-2018-clust-data][Poddar & Jacob 2018: Clustering Data With]]
+* TODO How To Beat Science and Influence People: Policy Makers and Propaganda in E
+[[cite:weatherall-2018-how-to][Weatherall et al. 2018: How To Beat]]
+* TODO Meltdown
+[[cite:lipp-2018-meltd][Lipp et al. 2018: Meltdown]]
+* TODO Spectre Attacks: Exploiting Speculative Execution
+[[cite:kocher-2018-spect-attac][Kocher et al. 2018: Spectre Attacks]]
+* NEXT Building Machines That Learn and Think Like People
+  :LOGBOOK:
+  CLOCK: [2018-01-08 Mon 20:04]--[2018-01-08 Mon 20:37] =>  0:33
+  :END:
+[[cite:lake-2016-build-machin][Lake et al. 2016: Building Machines That]]
+* TODO Parameter-Free Online Learning Via Model Selection
+[[cite:foster-2017-param-free][Foster et al. 2017: Parameter Free Online]]
+* TODO Imagination-Augmented Agents for Deep Reinforcement Learning
+[[cite:weber-2017-imagin-augmen][Weber et al. 2017: Imagination Augmented Agents]]
