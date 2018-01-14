@@ -3596,3 +3596,636 @@
   eprint =       {1707.06203},
   primaryClass = {cs.LG},
 }
+@article{rae-2016-scalin-memor,
+  author =       {Rae, Jack W and Hunt, Jonathan J and Harley, Tim and
+                  Danihelka, Ivo and Senior, Andrew and Wayne, Greg
+                  and Graves, Alex and Lillicrap, Timothy P},
+  title =        {Scaling Memory-Augmented Neural Networks With Sparse
+                  Reads and Writes},
+  journal =      {CoRR},
+  year =         2016,
+  url =          {http://arxiv.org/abs/1610.09027v1},
+  abstract =     {Neural networks augmented with external memory have
+                  the ability to learn algorithmic solutions to
+                  complex tasks. These models appear promising for
+                  applications such as language modeling and machine
+                  translation. However, they scale poorly in both
+                  space and time as the amount of memory grows ---
+                  limiting their applicability to real-world domains.
+                  Here, we present an end-to-end differentiable memory
+                  access scheme, which we call Sparse Access Memory
+                  (SAM), that retains the representational power of
+                  the original approaches whilst training efficiently
+                  with very large memories. We show that SAM achieves
+                  asymptotic lower bounds in space and time
+                  complexity, and find that an implementation runs
+                  $1,\!000\times$ faster and with $3,\!000\times$ less
+                  physical memory than non-sparse models. SAM learns
+                  with comparable data efficiency to existing models
+                  on a range of synthetic tasks and one-shot Omniglot
+                  character recognition, and can scale to tasks
+                  requiring $100,\!000$s of time steps and memories.
+                  As well, we show how our approach can be adapted for
+                  models that maintain temporal associations between
+                  memories, as with the recently introduced
+                  Differentiable Neural Computer.},
+  archivePrefix ={arXiv},
+  eprint =       {1610.09027},
+  primaryClass = {cs.LG},
+}
+
+@article{elyashar-2017-has-onlin,
+  author =       {Elyashar, Aviad and Bendahan, Jorge and Puzis, Rami},
+  title =        {Has the Online Discussion Been Manipulated?
+                  Quantifying Online Discussion Authenticity Within
+                  Online Social Media},
+  journal =      {CoRR},
+  year =         2017,
+  url =          {http://arxiv.org/abs/1708.02763v2},
+  abstract =     {Online social media (OSM) has a enormous influence
+                  in today's world. Some individuals view OSM as
+                  fertile ground for abuse and use it to disseminate
+                  misinformation and political propaganda, slander
+                  competitors, and spread spam. The crowdturfing
+                  industry employs large numbers of bots and human
+                  workers to manipulate OSM and misrepresent public
+                  opinion. The detection of online discussion topics
+                  manipulated by OSM \emph{abusers} is an emerging
+                  issue attracting significant attention. In this
+                  paper, we propose an approach for quantifying the
+                  authenticity of online discussions based on the
+                  similarity of OSM accounts participating in the
+                  discussion to known abusers and legitimate accounts.
+                  Our method uses several similarity functions for the
+                  analysis and classification of OSM accounts. The
+                  proposed methods are demonstrated using Twitter data
+                  collected for this study and previously published
+                  \emph{Arabic honeypot dataset}. The former includes
+                  manually labeled accounts and abusers who
+                  participated in crowdturfing platforms. Evaluation
+                  of the topic's authenticity, derived from account
+                  similarity functions, shows that the suggested
+                  approach is effective for discriminating between
+                  topics that were strongly promoted by abusers and
+                  topics that attracted authentic public interest.},
+  archivePrefix ={arXiv},
+  eprint =       {1708.02763},
+  primaryClass = {cs.SI},
+}
+
+@article{kraska-2017-case-learn,
+  author =       {Kraska, Tim and Beutel, Alex and Chi, Ed H. and
+                  Dean, Jeffrey and Polyzotis, Neoklis},
+  title =        {The Case for Learned Index Structures},
+  journal =      {CoRR},
+  year =         2017,
+  url =          {http://arxiv.org/abs/1712.01208v2},
+  abstract =     {Indexes are models: a B-Tree-Index can be seen as a
+                  model to map a key to the position of a record
+                  within a sorted array, a Hash-Index as a model to
+                  map a key to a position of a record within an
+                  unsorted array, and a BitMap-Index as a model to
+                  indicate if a data record exists or not. In this
+                  exploratory research paper, we start from this
+                  premise and posit that all existing index structures
+                  can be replaced with other types of models,
+                  including deep-learning models, which we term
+                  learned indexes. The key idea is that a model can
+                  learn the sort order or structure of lookup keys and
+                  use this signal to effectively predict the position
+                  or existence of records. We theoretically analyze
+                  under which conditions learned indexes outperform
+                  traditional index structures and describe the main
+                  challenges in designing learned index structures.
+                  Our initial results show, that by using neural nets
+                  we are able to outperform cache-optimized B-Trees by
+                  up to 70 \% in speed while saving an
+                  order-of-magnitude in memory over several real-world
+                  data sets. More importantly though, we believe that
+                  the idea of replacing core components of a data
+                  management system through learned models has far
+                  reaching implications for future systems designs and
+                  that this work just provides a glimpse of what might
+                  be possible.},
+  archivePrefix ={arXiv},
+  eprint =       {1712.01208},
+  primaryClass = {cs.DB},
+}
+
+@article{mani-2018-deept,
+  author =       {Mani, Senthil and Sankaran, Anush and Aralikatte,
+                  Rahul},
+  title =        {Deeptriage: Exploring the Effectiveness of Deep
+                  Learning for Bug Triaging},
+  journal =      {CoRR},
+  year =         2018,
+  url =          {http://arxiv.org/abs/1801.01275v1},
+  abstract =     {For a given software bug report, identifying an
+                  appropriate developer who could potentially fix the
+                  bug is the primary task of a bug triaging process. A
+                  bug title (summary) and a detailed description is
+                  present in most of the bug tracking systems.
+                  Automatic bug triaging algorithm can be formulated
+                  as a classification problem, with the bug title and
+                  description as the input, mapping it to one of the
+                  available developers (classes). The major challenge
+                  is that the bug description usually contains a
+                  combination of free unstructured text, code
+                  snippets, and stack trace making the input data
+                  noisy. The existing bag-of-words (BOW) feature
+                  models do not consider the syntactical and
+                  sequential word information available in the
+                  unstructured text. We propose a novel bug report
+                  representation algorithm using an attention based
+                  deep bidirectional recurrent neural network
+                  (DBRNN-A) model that learns a syntactic and semantic
+                  feature from long word sequences in an unsupervised
+                  manner. Instead of BOW features, the DBRNN-A based
+                  bug representation is then used for training the
+                  classifier. Using an attention mechanism enables the
+                  model to learn the context representation over a
+                  long word sequence, as in a bug report. To provide a
+                  large amount of data to learn the feature learning
+                  model, the unfixed bug reports (~70 \% bugs in an
+                  open source bug tracking system) are leveraged,
+                  which were completely ignored in the previous
+                  studies. Another contribution is to make this
+                  research reproducible by making the source code
+                  available and creating a public benchmark dataset of
+                  bug reports from three open source bug tracking
+                  system: Google Chromium (383,104 bug reports),
+                  Mozilla Core (314,388 bug reports), and Mozilla
+                  Firefox (162,307 bug reports). Experimentally we
+                  compare our approach with BOW model and machine
+                  learning approaches and observe that DBRNN-A
+                  provides a higher rank-10 average accuracy.},
+  archivePrefix ={arXiv},
+  eprint =       {1801.01275},
+  primaryClass = {cs.SE},
+}
+
+@article{smalheiser-2018-unsup-low,
+  author =       {Smalheiser, Neil R. and Bonifield, Gary},
+  title =        {Unsupervised Low-Dimensional Vector Representations
+                  for Words, Phrases and Text That Are Transparent,
+                  Scalable, and Produce Similarity Metrics That Are
+                  Complementary To Neural Embeddings},
+  journal =      {CoRR},
+  year =         2018,
+  url =          {http://arxiv.org/abs/1801.01884v2},
+  abstract =     {Neural embeddings are a popular set of methods for
+                  representing words, phrases or text as a low
+                  dimensional vector (typically 50-500 dimensions).
+                  However, it is difficult to interpret these
+                  dimensions in a meaningful manner, and creating
+                  neural embeddings requires extensive training and
+                  tuning of multiple parameters and hyperparameters.
+                  We present here a simple unsupervised method for
+                  representing words, phrases or text as a low
+                  dimensional vector, in which the meaning and
+                  relative importance of dimensions is transparent to
+                  inspection. We have created a near-comprehensive
+                  vector representation of words, and selected
+                  bigrams, trigrams and abbreviations, using the set
+                  of titles and abstracts in PubMed as a corpus. This
+                  vector is used to create several novel implicit
+                  word-word and text-text similarity metrics. The
+                  implicit word-word similarity metrics correlate well
+                  with human judgement of word pair similarity and
+                  relatedness, and outperform or equal all other
+                  reported methods on a variety of biomedical
+                  benchmarks, including several implementations of
+                  neural embeddings trained on PubMed corpora. Our
+                  implicit word-word metrics capture different aspects
+                  of word-word relatedness than word2vec-based metrics
+                  and are only partially correlated (rho = ~0.5-0.8
+                  depending on task and corpus). The vector
+                  representations of words, bigrams, trigrams,
+                  abbreviations, and PubMed title+abstracts are all
+                  publicly available from
+                  http://arrowsmith.psych.uic.edu for release under
+                  CC-BY-NC license. Several public web query
+                  interfaces are also available at the same site,
+                  including one which allows the user to specify a
+                  given word and view its most closely related terms
+                  according to direct co-occurrence as well as
+                  different implicit similarity metrics.},
+  archivePrefix ={arXiv},
+  eprint =       {1801.01884},
+  primaryClass = {cs.CL},
+}
+
+@article{liu-2018-less-is-more,
+  author =       {Liu, Yongshuai and Chen, Jiyu and Chen, Hao},
+  title =        {Less Is More: Culling the Training Set To Improve
+                  Robustness of Deep Neural Networks},
+  journal =      {CoRR},
+  year =         2018,
+  url =          {http://arxiv.org/abs/1801.02850v1},
+  abstract =     {Deep neural networks are vulnerable to adversarial
+                  examples. Prior defenses attempted to make deep
+                  networks more robust by either improving the network
+                  architecture or adding adversarial examples into the
+                  training set, with their respective limitations. We
+                  propose a new direction. Motivated by recent
+                  research that shows that outliers in the training
+                  set have a high negative influence on the trained
+                  model, our approach makes the model more robust by
+                  detecting and removing outliers in the training set
+                  without modifying the network architecture or
+                  requiring adversarial examples. We propose two
+                  methods for detecting outliers based on canonical
+                  examples and on training errors, respectively. After
+                  removing the outliers, we train the classifier with
+                  the remaining examples to obtain a sanitized model.
+                  Our evaluation shows that the sanitized model
+                  improves classification accuracy and forces the
+                  attacks to generate adversarial examples with higher
+                  distortions. Moreover, the Kullback-Leibler
+                  divergence from the output of the original model to
+                  that of the sanitized model allows us to distinguish
+                  between normal and adversarial examples reliably.},
+  archivePrefix ={arXiv},
+  eprint =       {1801.02850},
+  primaryClass = {cs.CR},
+}
+
+@inproceedings{dolstra2008nixos,
+  title={NixOS: A purely functional Linux distribution},
+  author={Dolstra, Eelco and L{\"o}h, Andres},
+  booktitle={ACM Sigplan Notices},
+  volume={43},
+  number={9},
+  pages={367--378},
+  year={2008},
+  organization={ACM}
+}
+
+@article{piplani-2018-deeps,
+  author =       {Piplani, Tanya and Bamman, David},
+  title =        {Deepseek: Content Based Image Search \& Retrieval},
+  journal =      {CoRR},
+  year =         2018,
+  url =          {http://arxiv.org/abs/1801.03406v2},
+  abstract =     {Most of the internet today is composed of digital
+                  media that includes videos and images. With pixels
+                  becoming the currency in which most transactions
+                  happen on the internet, it is becoming increasingly
+                  important to have a way of browsing through this
+                  ocean of information with relative ease. YouTube has
+                  400 hours of video uploaded every minute and many
+                  million images are browsed on Instagram, Facebook,
+                  etc. Inspired by recent advances in the field of
+                  deep learning and success that it has gained on
+                  various problems like image captioning and, machine
+                  translation , word2vec , skip thoughts, etc, we
+                  present DeepSeek a natural language processing based
+                  deep learning model that allows users to enter a
+                  description of the kind of images that they want to
+                  search, and in response the system retrieves all the
+                  images that semantically and contextually relate to
+                  the query. Two approaches are described in the
+                  following sections.},
+  archivePrefix ={arXiv},
+  eprint =       {1801.03406},
+  primaryClass = {cs.IR},
+}
+
+@article{smith-2015-cyclic-learn,
+  author =       {Smith, Leslie N.},
+  title =        {Cyclical Learning Rates for Training Neural
+                  Networks},
+  journal =      {CoRR},
+  year =         2015,
+  url =          {http://arxiv.org/abs/1506.01186v6},
+  abstract =     {It is known that the learning rate is the most
+                  important hyper-parameter to tune for training deep
+                  neural networks. This paper describes a new method
+                  for setting the learning rate, named cyclical
+                  learning rates, which practically eliminates the
+                  need to experimentally find the best values and
+                  schedule for the global learning rates. Instead of
+                  monotonically decreasing the learning rate, this
+                  method lets the learning rate cyclically vary
+                  between reasonable boundary values. Training with
+                  cyclical learning rates instead of fixed values
+                  achieves improved classification accuracy without a
+                  need to tune and often in fewer iterations. This
+                  paper also describes a simple way to estimate
+                  "reasonable bounds" -- linearly increasing the
+                  learning rate of the network for a few epochs. In
+                  addition, cyclical learning rates are demonstrated
+                  on the CIFAR-10 and CIFAR-100 datasets with ResNets,
+                  Stochastic Depth networks, and DenseNets, and the
+                  ImageNet dataset with the AlexNet and GoogLeNet
+                  architectures. These are practical tools for
+                  everyone who trains neural networks.},
+  archivePrefix ={arXiv},
+  eprint =       {1506.01186},
+  primaryClass = {cs.CV},
+}
+
+@article{smith-2017-dont-decay,
+  author =       {Smith, Samuel L. and Kindermans, Pieter-Jan and Le,
+                  Quoc V.},
+  title =        {Don't Decay the Learning Rate, Increase the Batch
+                  Size},
+  journal =      {CoRR},
+  year =         2017,
+  url =          {http://arxiv.org/abs/1711.00489v1},
+  abstract =     {It is common practice to decay the learning rate.
+                  Here we show one can usually obtain the same
+                  learning curve on both training and test sets by
+                  instead increasing the batch size during training.
+                  This procedure is successful for stochastic gradient
+                  descent (SGD), SGD with momentum, Nesterov momentum,
+                  and Adam. It reaches equivalent test accuracies
+                  after the same number of training epochs, but with
+                  fewer parameter updates, leading to greater
+                  parallelism and shorter training times. We can
+                  further reduce the number of parameter updates by
+                  increasing the learning rate $\epsilon$ and scaling
+                  the batch size $B \propto \epsilon$. Finally, one
+                  can increase the momentum coefficient $m$ and scale
+                  $B \propto 1/(1-m)$, although this tends to slightly
+                  reduce the test accuracy. Crucially, our techniques
+                  allow us to repurpose existing training schedules
+                  for large batch training with no hyper-parameter
+                  tuning. We train Inception-ResNet-V2 on ImageNet to
+                  $77\ \%$ validation accuracy in under 2500 parameter
+                  updates, efficiently utilizing training batches of
+                  65536 images.},
+  archivePrefix ={arXiv},
+  eprint =       {1711.00489},
+  primaryClass = {cs.LG},
+}
+
+@article{schaul-2012-no-more,
+  author =       {Schaul, Tom and Zhang, Sixin and LeCun, Yann},
+  title =        {No More Pesky Learning Rates},
+  journal =      {CoRR},
+  year =         2012,
+  url =          {http://arxiv.org/abs/1206.1106v2},
+  abstract =     {The performance of stochastic gradient descent (SGD)
+                  depends critically on how learning rates are tuned
+                  and decreased over time. We propose a method to
+                  automatically adjust multiple learning rates so as
+                  to minimize the expected error at any one time. The
+                  method relies on local gradient variations across
+                  samples. In our approach, learning rates can
+                  increase as well as decrease, making it suitable for
+                  non-stationary problems. Using a number of convex
+                  and non-convex learning tasks, we show that the
+                  resulting algorithm matches the performance of SGD
+                  or other adaptive approaches with their best
+                  settings obtained through systematic search, and
+                  effectively removes the need for learning rate
+                  tuning.},
+  archivePrefix ={arXiv},
+  eprint =       {1206.1106},
+  primaryClass = {stat.ML},
+}
+
+@article{mikolov-2013-effic-estim,
+  author =       {Mikolov, Tomas and Chen, Kai and Corrado, Greg and
+                  Dean, Jeffrey},
+  title =        {Efficient Estimation of Word Representations in
+                  Vector Space},
+  journal =      {CoRR},
+  year =         2013,
+  url =          {http://arxiv.org/abs/1301.3781v3},
+  abstract =     {We propose two novel model architectures for
+                  computing continuous vector representations of words
+                  from very large data sets. The quality of these
+                  representations is measured in a word similarity
+                  task, and the results are compared to the previously
+                  best performing techniques based on different types
+                  of neural networks. We observe large improvements in
+                  accuracy at much lower computational cost, i.e. it
+                  takes less than a day to learn high quality word
+                  vectors from a 1.6 billion words data set.
+                  Furthermore, we show that these vectors provide
+                  state-of-the-art performance on our test set for
+                  measuring syntactic and semantic word similarities.},
+  archivePrefix ={arXiv},
+  eprint =       {1301.3781},
+  primaryClass = {cs.CL},
+}
+
+@inproceedings{pennington2014glove,
+  author = {Jeffrey Pennington and Richard Socher and Christopher D. Manning},
+  booktitle = {Empirical Methods in Natural Language Processing (EMNLP)},
+  title = {GloVe: Global Vectors for Word Representation},
+  year = {2014},
+  pages = {1532--1543},
+  url = {http://www.aclweb.org/anthology/D14-1162},
+}
+
+@article{john-2017-survey-neural,
+  author =       {John, Vineet},
+  title =        {A Survey of Neural Network Techniques for Feature
+                  Extraction From Text},
+  journal =      {CoRR},
+  year =         2017,
+  url =          {http://arxiv.org/abs/1704.08531v1},
+  abstract =     {This paper aims to catalyze the discussions about
+                  text feature extraction techniques using neural
+                  network architectures. The research questions
+                  discussed in the paper focus on the state-of-the-art
+                  neural network techniques that have proven to be
+                  useful tools for language processing, language
+                  generation, text classification and other
+                  computational linguistics tasks.},
+  archivePrefix ={arXiv},
+  eprint =       {1704.08531},
+  primaryClass = {cs.CL},
+}
+
+@InProceedings{herbelot-baroni2017,
+  author    = {Herbelot, Aur\'{e}lie  and  Baroni, Marco},
+  title     = {High-risk learning: acquiring new word vectors from tiny data},
+  booktitle = {Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing},
+  month     = {September},
+  year      = {2017},
+  address   = {Copenhagen, Denmark},
+  publisher = {Association for Computational Linguistics},
+  pages     = {304--309},
+  abstract  = {Distributional semantics models are known to struggle with small data. It is
+	generally accepted that in order to learn 'a good vector' for a word, a model
+	must have sufficient examples of its usage. This contradicts the fact that
+	humans can guess the meaning of a word from a few occurrences only.  In this
+	paper, we show that a neural language model such as Word2Vec only necessitates
+	minor modifications to its standard architecture to learn new terms from tiny
+	data, using background knowledge from a previously learnt semantic space. We
+	test our model on word definitions and on a nonce task involving 2-6 sentences'
+	worth of context, showing a large increase in performance over state-of-the-art
+	models on the definitional task.},
+  url       = {https://www.aclweb.org/anthology/D17-1030}
+}
+
+@article{wiatowski-2015-mathem-theor,
+  author =       {Wiatowski, Thomas and B{\"o}lcskei, Helmut},
+  title =        {A Mathematical Theory of Deep Convolutional Neural
+                  Networks for Feature Extraction},
+  journal =      {CoRR},
+  year =         2015,
+  url =          {http://arxiv.org/abs/1512.06293v3},
+  abstract =     {Deep convolutional neural networks have led to
+                  breakthrough results in numerous practical machine
+                  learning tasks such as classification of images in
+                  the ImageNet data set, control-policy-learning to
+                  play Atari games or the board game Go, and image
+                  captioning. Many of these applications first perform
+                  feature extraction and then feed the results thereof
+                  into a trainable classifier. The mathematical
+                  analysis of deep convolutional neural networks for
+                  feature extraction was initiated by Mallat, 2012.
+                  Specifically, Mallat considered so-called scattering
+                  networks based on a wavelet transform followed by
+                  the modulus non-linearity in each network layer, and
+                  proved translation invariance (asymptotically in the
+                  wavelet scale parameter) and deformation stability
+                  of the corresponding feature extractor. This paper
+                  complements Mallat's results by developing a theory
+                  that encompasses general convolutional transforms,
+                  or in more technical parlance, general semi-discrete
+                  frames (including Weyl-Heisenberg filters,
+                  curvelets, shearlets, ridgelets, wavelets, and
+                  learned filters), general Lipschitz-continuous
+                  non-linearities (e.g., rectified linear units,
+                  shifted logistic sigmoids, hyperbolic tangents, and
+                  modulus functions), and general Lipschitz-continuous
+                  pooling operators emulating, e.g., sub-sampling and
+                  averaging. In addition, all of these elements can be
+                  different in different network layers. For the
+                  resulting feature extractor we prove a translation
+                  invariance result of vertical nature in the sense of
+                  the features becoming progressively more
+                  translation-invariant with increasing network depth,
+                  and we establish deformation sensitivity bounds that
+                  apply to signal classes such as, e.g., band-limited
+                  functions, cartoon functions, and Lipschitz
+                  functions.},
+  archivePrefix ={arXiv},
+  eprint =       {1512.06293},
+  primaryClass = {cs.IT},
+}
+
+@article{ram-2018-conver-ai,
+  author =       {Ram, Ashwin and Prasad, Rohit and Khatri, Chandra
+                  and Venkatesh, Anu and Gabriel, Raefer and Liu, Qing
+                  and Nunn, Jeff and Hedayatnia, Behnam and Cheng,
+                  Ming and Nagar, Ashish and King, Eric and Bland,
+                  Kate and Wartick, Amanda and Pan, Yi and Song, Han
+                  and Jayadevan, Sk and Hwang, Gene and Pettigrue,
+                  Art},
+  title =        {Conversational Ai: The Science Behind the Alexa
+                  Prize},
+  journal =      {CoRR},
+  year =         2018,
+  url =          {http://arxiv.org/abs/1801.03604v1},
+  abstract =     {Conversational agents are exploding in popularity.
+                  However, much work remains in the area of social
+                  conversation as well as free-form conversation over
+                  a broad range of domains and topics. To advance the
+                  state of the art in conversational AI, Amazon
+                  launched the Alexa Prize, a 2.5-million-dollar
+                  university competition where sixteen selected
+                  university teams were challenged to build
+                  conversational agents, known as socialbots, to
+                  converse coherently and engagingly with humans on
+                  popular topics such as Sports, Politics,
+                  Entertainment, Fashion and Technology for 20
+                  minutes. The Alexa Prize offers the academic
+                  community a unique opportunity to perform research
+                  with a live system used by millions of users. The
+                  competition provided university teams with real user
+                  conversational data at scale, along with the
+                  user-provided ratings and feedback augmented with
+                  annotations by the Alexa team. This enabled teams to
+                  effectively iterate and make improvements throughout
+                  the competition while being evaluated in real-time
+                  through live user interactions. To build their
+                  socialbots, university teams combined
+                  state-of-the-art techniques with novel strategies in
+                  the areas of Natural Language Understanding, Context
+                  Modeling, Dialog Management, Response Generation,
+                  and Knowledge Acquisition. To support the efforts of
+                  participating teams, the Alexa Prize team made
+                  significant scientific and engineering investments
+                  to build and improve Conversational Speech
+                  Recognition, Topic Tracking, Dialog Evaluation,
+                  Voice User Experience, and tools for traffic
+                  management and scalability. This paper outlines the
+                  advances created by the university teams as well as
+                  the Alexa Prize team to achieve the common goal of
+                  solving the problem of Conversational AI.},
+  archivePrefix ={arXiv},
+  eprint =       {1801.03604v1},
+  primaryClass = {cs.AI},
+}
+
+@article{adamski-2018-distr-deep,
+  author =       {Adamski, Igor and Adamski, Robert and Grel, Tomasz
+                  and Jędrych, Adam and Kaczmarek, Kamil and
+                  Michalewski, Henryk},
+  title =        {Distributed Deep Reinforcement Learning: Learn How
+                  To Play Atari Games in 21 Minutes},
+  journal =      {CoRR},
+  year =         2018,
+  url =          {http://arxiv.org/abs/1801.02852v1},
+  abstract =     {We present a study in Distributed Deep Reinforcement
+                  Learning (DDRL) focused on scalability of a
+                  state-of-the-art Deep Reinforcement Learning
+                  algorithm known as Batch Asynchronous Advantage
+                  ActorCritic (BA3C). We show that using the Adam
+                  optimization algorithm with a batch size of up to
+                  2048 is a viable choice for carrying out large scale
+                  machine learning computations. This, combined with
+                  careful reexamination of the optimizer's
+                  hyperparameters, using synchronous training on the
+                  node level (while keeping the local, single node
+                  part of the algorithm asynchronous) and minimizing
+                  the memory footprint of the model, allowed us to
+                  achieve linear scaling for up to 64 CPU nodes. This
+                  corresponds to a training time of 21 minutes on 768
+                  CPU cores, as opposed to 10 hours when using a
+                  single node with 24 cores achieved by a baseline
+                  single-node implementation.},
+  archivePrefix ={arXiv},
+  eprint =       {1801.02852v1},
+  primaryClass = {cs.AI},
+}
+
+@article{fridman-2018-deept,
+  author =       {Fridman, Lex and Jenik, Benedikt and Terwilliger,
+                  Jack},
+  title =        {Deeptraffic: Driving Fast Through Dense Traffic With
+                  Deep Reinforcement Learning},
+  journal =      {CoRR},
+  year =         2018,
+  url =          {http://arxiv.org/abs/1801.02805v1},
+  abstract =     {We present a micro-traffic simulation (named
+                  "DeepTraffic") where the perception, control, and
+                  planning systems for one of the cars are all handled
+                  by a single neural network as part of a model-free,
+                  off-policy reinforcement learning process. The
+                  primary goal of DeepTraffic is to make the hands-on
+                  study of deep reinforcement learning accessible to
+                  thousands of students, educators, and researchers in
+                  order to inspire and fuel the exploration and
+                  evaluation of DQN variants and hyperparameter
+                  configurations through large-scale, open
+                  competition. This paper investigates the
+                  crowd-sourced hyperparameter tuning of the policy
+                  network that resulted from the first iteration of
+                  the DeepTraffic competition where thousands of
+                  participants actively searched through the
+                  hyperparameter space with the objective of their
+                  neural network submission to make it onto the top-10
+                  leaderboard.},
+  archivePrefix ={arXiv},
+  eprint =       {1801.02805v1},
+  primaryClass = {cs.NE},
+}
+

@@ -1,0 +1,25 @@
+
+* Wiatowski, T., & B\"olcskei, Helmut (2015): A mathematical theory of deep convolutional neural networks for feature extraction
+  :PROPERTIES:
+  :Custom_ID: wiatowski-2015-mathem-theor
+  :END:
+** Lipschitz Continuity (Page 2)
+ Intuitively, a Lipschitz continuous function is limited in how fast
+ it can change: there exists a definite real number such that, for
+ every pair of points on the graph of this function, the absolute
+ value of the slope of the line connecting them is not greater than
+ this real number; this bound is called a Lipschitz constant of the
+ function
+** Key findings
+1. The depth of the network determines the extent to which the
+   extracted features are translation-invariant
+2. Pooling is necessary to obtain vertical translation invariance as
+   otherwise the features remain fully translational-covariant
+3. Finally, the paper extends a neat way to think about convolutional
+   neural networks (by extendint Mallat's initial work): that the
+   layers represent functions which are invariant to group operations
+   like rotation and translation, and stable with respect to
+   deformation. This means you can study these types of neural
+   networks using group theory (abstract algebra); an area of math
+   where it's easy to gather insight about how things work and develop
+   new algorithms that you can translate back to the real world.

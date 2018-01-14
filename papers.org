@@ -171,9 +171,17 @@
 [[cite:schulze-2018-vizdoom]]
 * TODO Deepj: Style-Specific Music Generation
 [[cite:mao-2018-deepj]]
-* TODO Deep Learning: A Critical Appraisal
+* DONE Deep Learning: A Critical Appraisal
+  CLOSED: [2018-01-07 Sun 19:38]
+  :LOGBOOK:
+  CLOCK: [2018-01-07 Sun 19:38]--[2018-01-07 Sun 20:38] =>  1:00
+  :END:
 [[cite:marcus-2018-deep-learn]]
-* TODO Recent Advances in Recurrent Neural Networks
+* DONE Recent Advances in Recurrent Neural Networks
+  CLOSED: [2018-01-09 Tue 20:03]
+  :LOGBOOK:
+  CLOCK: [2018-01-09 Tue 19:41]--[2018-01-09 Tue 20:03] =>  0:22
+  :END:
 [[cite:salehinejad-2017-recen-advan][Salehinejad et al. 2017: Recent Advances Recurrent]]
 * TODO A Survey of Model Compression and Acceleration for Deep Neural Networks
 [[cite:cheng-2017-survey-model][Cheng et al. 2017: Survey Model Compression]]
@@ -187,7 +195,11 @@
 [[cite:rodriguez-2018-shiel-googl][Rodriguez & Rojas-Galeano 2018: Shielding Googles Language]]
 * TODO Towards Understanding and Answering Multi-Sentence Recommendation Questions
 [[cite:contractor-2018-towar-under][Contractor et al. 2018: Towards Understanding Answering]]
-* TODO Learning Feature Representations for Keyphrase Extraction
+* DONE Learning Feature Representations for Keyphrase Extraction
+  CLOSED: [2018-01-10 Wed 14:01]
+  :LOGBOOK:
+  CLOCK: [2018-01-10 Wed 13:44]--[2018-01-10 Wed 14:01] =>  0:17
+  :END:
 [[cite:florescu-2018-learn-featur][Florescu & Jin 2018: Learning Feature Representations]]
 * TODO A Practical Tutorial on Autoencoders for Nonlinear Feature Fusion: Taxonomy
 [[cite:charte-2018-pract-tutor][Charte et al. 2018: Practical Tutorial Autoencoders]]
@@ -199,8 +211,10 @@
 [[cite:lipp-2018-meltd][Lipp et al. 2018: Meltdown]]
 * TODO Spectre Attacks: Exploiting Speculative Execution
 [[cite:kocher-2018-spect-attac][Kocher et al. 2018: Spectre Attacks]]
-* NEXT Building Machines That Learn and Think Like People
+* DONE Building Machines That Learn and Think Like People
+  CLOSED: [2018-01-08 Mon 23:38]
   :LOGBOOK:
+  CLOCK: [2018-01-08 Mon 21:40]--[2018-01-08 Mon 23:38] =>  1:58
   CLOCK: [2018-01-08 Mon 20:04]--[2018-01-08 Mon 20:37] =>  0:33
   :END:
 [[cite:lake-2016-build-machin][Lake et al. 2016: Building Machines That]]
@@ -208,3 +222,62 @@
 [[cite:foster-2017-param-free][Foster et al. 2017: Parameter Free Online]]
 * TODO Imagination-Augmented Agents for Deep Reinforcement Learning
 [[cite:weber-2017-imagin-augmen][Weber et al. 2017: Imagination Augmented Agents]]
+* TODO Scaling Memory-Augmented Neural Networks With Sparse Reads and Writes
+[[cite:rae-2016-scalin-memor][Rae et al. 2016: Scaling Memory Augmented]]
+* TODO Has the Online Discussion Been Manipulated? Quantifying Online Discussion A
+[[cite:elyashar-2017-has-onlin][Elyashar et al. 2017: Has Online Discussion]]
+* TODO The Case for Learned Index Structures
+[[cite:kraska-2017-case-learn][Kraska et al. 2017: Case Learned Index Structures]]
+* TODO Deeptriage: Exploring the Effectiveness of Deep Learning for Bug Triaging
+[[cite:mani-2018-deept][Mani et al. 2018: Deeptriage]]
+* TODO Unsupervised Low-Dimensional Vector Representations for Words, Phrases and
+[[cite:smalheiser-2018-unsup-low]]
+* TODO Less Is More: Culling the Training Set To Improve Robustness of Deep Neural
+[[cite:liu-2018-less-is-more]]
+* TODO NixOS: A purely functional Linux distribution
+[[cite:dolstra2008nixos]]
+* TODO Deepseek: Content Based Image Search \& Retrieval
+[[cite:piplani-2018-deeps]]
+* DONE Cyclical Learning Rates for Training Neural Networks
+  CLOSED: [2018-01-13 Sat 10:51]
+  :LOGBOOK:
+  CLOCK: [2018-01-13 Sat 10:43]--[2018-01-13 Sat 10:51] =>  0:08
+  :END:
+[[cite:smith-2015-cyclic-learn]]
+* TODO Don't Decay the Learning Rate, Increase the Batch Size
+[[cite:smith-2017-dont-decay]]
+* TODO No More Pesky Learning Rates
+* DONE Efficient Estimation of Word Representations in Vector Space
+  CLOSED: [2018-01-13 Sat 14:56]
+  :LOGBOOK:
+  CLOCK: [2018-01-13 Sat 14:50]--[2018-01-13 Sat 14:56] =>  0:06
+  :END:
+[[cite:mikolov-2013-effic-estim]]
+* DONE GloVe: Global Vectors for Word Representation
+  CLOSED: [2018-01-13 Sat 15:46]
+  :LOGBOOK:
+  CLOCK: [2018-01-13 Sat 15:23]--[2018-01-13 Sat 15:46] =>  0:23
+  :END:
+[[cite:pennington2014glove]]
+* TODO A Survey of Neural Network Techniques for Feature Extraction From Text
+[[cite:john-2017-survey-neural]]
+* DONE High-risk learning: acquiring new word vectors from tiny data
+  CLOSED: [2018-01-13 Sat 16:12]
+  :LOGBOOK:
+  CLOCK: [2018-01-13 Sat 16:04]--[2018-01-13 Sat 16:12] =>  0:08
+  :END:
+[[cite:herbelot-baroni2017]]
+* CANCELLED A Mathematical Theory of Deep Convolutional Neural Networks for Feature Ext
+  CLOSED: [2018-01-13 Sat 17:08]
+  :LOGBOOK:
+  - State "CANCELLED"  from "DONE"       [2018-01-13 Sat 17:08] \\
+    too difficult, don't know continuous frame theory
+  CLOCK: [2018-01-13 Sat 16:23]--[2018-01-13 Sat 17:08] =>  0:45
+  :END:
+[[cite:wiatowski-2015-mathem-theor]]
+* TODO Conversational Ai: The Science Behind the Alexa Prize
+[[cite:ram-2018-conver-ai]]
+* TODO Distributed Deep Reinforcement Learning: Learn How To Play Atari Games in 2
+[[cite:adamski-2018-distr-deep]]
+* TODO Deeptraffic: Driving Fast Through Dense Traffic With Deep Reinforcement Lea
+[[cite:fridman-2018-deept]]
